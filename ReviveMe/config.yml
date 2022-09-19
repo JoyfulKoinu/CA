@@ -9,16 +9,16 @@
 # Player configuration and general
 player_config:
   # speed that the player will have when injured.
-  downed_speed: 0.04
+  downed_speed: 0.03
   
   # time in which the player will die if not revived.
-  death_delay: 75
+  death_delay: 60
   
   # Speed to revive the player (seconds)
-  reliving_count: 10
+  reliving_count: 5
   
   # time in which the player is invulnerable.
-  invulnerability_delay: 15
+  invulnerability_delay: 10
   
   # Should it be invulnerable to mobs as well?
   invulnerability_with_mobs: true
@@ -51,13 +51,13 @@ player_config:
   reliving_distance_max: 5
   
   # mobs can attack when you are knocked down?
-  mobs_target_downed: false
+  mobs_target_downed: true
   
   # Can downed players be picked up?
-  picked_enable: true
+  picked_enable: false
   
   # when the player carrying it takes damage should it fall to the ground?
-  picked_damage_drop: false
+  picked_damage_drop: true
   
   # Can the wounded man stop riding the picker?
   downed_can_dismount_picker: false
