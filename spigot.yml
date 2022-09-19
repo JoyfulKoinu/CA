@@ -11,12 +11,12 @@
 # Forums: http://www.spigotmc.org/
 
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  whitelist: You are not whitelisted on this server please contact Zilla#0008
+  unknown-command: Unknown command!
+  server-full: The server is full! :(
+  outdated-client: CA-SMP does not support your mc-version please switch to {0}
+  outdated-server: CA-SMP does not support your mc-version please switch to {0}
+  restart: CA-SMP is restarting!
 advancements:
   disable-saving: false
   disabled:
@@ -94,8 +94,8 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
-      ignore-spectators: false
+      tick-inactive-villagers: false
+      ignore-spectators: true
     entity-tracking-range:
       players: 48
       animals: 48
@@ -158,7 +158,7 @@ settings:
   user-cache-size: 1000
   bungeecord: false
   netty-threads: 4
-  log-villager-deaths: true
+  log-villager-deaths: false
   log-named-deaths: true
   debug: false
   attribute:
