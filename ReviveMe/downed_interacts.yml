@@ -10,7 +10,7 @@
 enable_damage: false
 
 #can the downed player interact with entities?
-enable_entity_interact: true
+enable_entity_interact: false
 
 #can the downed player break blocks?
 enable_block_break: false
@@ -19,7 +19,7 @@ enable_block_break: false
 enable_block_place: false
 
 #can the downed player interact?
-enable_interact: true
+enable_interact: false
 
 #the downed player can move?
 enable_move: true
@@ -40,7 +40,7 @@ enable_fall_damage: false
 enable_item_drop: false
 
 #Can the downed player pick up items?
-enable_item_pickup: true
+enable_item_pickup: false
 
 #Can the downed player use the elytra?
 enable_gliding: false
