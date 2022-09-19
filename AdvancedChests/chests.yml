@@ -17,7 +17,7 @@ chests:
       - ''
       - ''
     # Put it as -1 if you don't want to display the chest in the shop
-    shop-price: 1000
+    shop-price: 2500
     allow-hoppers-use: true
     previous-page-slot: 4
     next-page-slot: 6
