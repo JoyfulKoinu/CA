@@ -1,0 +1,59 @@
+display-name: '&9Elf'
+hurt-sound: ENTITY_AXOLOTL_HURT
+death-sound: ENTITY_AXOLOTL_DEATH
+race-color: BLUE
+permissions:
+- elf.permission
+- -elf.negated.permission
+commands:
+  enabled: true
+  race-change-commands:
+  - bc %player_name% became a(n) %player_race_displayname%!
+  race-commands-day:
+  - tellraw %player_name% {"text":"The sun has risen","color":"red"}
+  race-commands-night:
+  - tellraw %player_name% {"text":"The night has fallen","color":"red"}
+potions:
+  enabled: true
+  potion-bubbles: false
+  potioneffects:
+  - HERO_OF_THE_VILLAGE:1
+damage:
+  enabled: false
+  water-damage: false
+  out-of-water-damage: false
+  lava-damage: false
+  affect-fire: false
+  water-damage-amount: 2
+  out-of-water-damage-amount: 2
+  lava-damage-amount: 2
+gui:
+  enabled: true
+  display-name: '&6&lElf'
+  material: skull:d4307db1fb034e5952a80c67b9d309b1b59df20074d783534e7349dcd810df9
+  durability: 0
+  lore:
+  - '&dMagical beings that are immortal.'
+  - '&f--------------------------------'
+  - '&a- Health Boost'
+  - '&a- Exta Knockback'
+  - '&a- Villagrs love you'
+  - '&c- Lower Armor'
+  - '&c- Cute Hurt/Death noises'
+  - '&f--------------------------------'
+  - '&d&oQuote by Mary "Awoo"'
+  - '&d&l[ &d&lCLICK TO CHOOSE &d&l]'
+  slot: 14
+  item-flags:
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  item-enchantments:
+  - DURABILITY
+race-location:
+  enabled: true
+  location: world:128:66:-112
+  teleport-on-death: false
+  temp-op: false
+attributes:
+  - GENERIC_ARMOR: -2
+  - GENERIC_MAX_HEALTH: 30

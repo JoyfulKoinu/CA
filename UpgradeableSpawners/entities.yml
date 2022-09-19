@@ -1,0 +1,220 @@
+# This file is auto generated and does contain all spawnable entities of your server version.
+# You can use custom heads from https://minecraft-heads.com/ or any other head value for the entities heads
+# in the gui menu by configuring the skull value in this config.
+#
+# To buy a mob players need the permission uspawners.mob.MOB_TYPE
+# Example: pig = uspawners.mob.pig
+# NOTE: Some changes in this file require a server restart / reload.
+types:
+  pig:
+    name: Pig
+    cost: 50000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI3ZWM0NTllYzhiYTM1YWY5YmI0YzdlMDQ5YzdjZThkMjM0NTAyNWJjNDc0NDY2NDdhNTFiODE0YjMwOWRiOCJ9fX0=
+    # '/Spawners get' will give a pig spawner. You can just remove this option and place it somewhere else to change the default entity.
+    default: true
+  sheep:
+    name: Sheep
+    cost: 25000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ1OGQ0OGE3MDdjMzRiMDdkYzdlYTQyMGExZTMwNzQ5MTk0ODM2OWU5ZTNmODUwMGY5NGZlMjE4NzM3YzMyZCJ9fX0=
+  cow:
+    name: Cow
+    cost: 65000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU3NGE2ZjkyY2ExYjY4ZTc1NzAzMTc0NWNkNmY3NjgwODc1OGI2MGE3MzNiMzM5MWVkZGQzMWIyM2I5MjcxOSJ9fX0=
+  goat:
+    name: Goat
+    cost: 75000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E0OTg2ZmRmMDRjYzg2ZDhhZmYyMDM3YTZiNGRmNTczY2RjMWU3MDhkMDU3OTBjNzY3MjhmYWVmNzk2ZjMzYSJ9fX0=
+  chicken:
+    name: Chicken
+    cost: 15000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJiYzU0Mjc1NDhmM2ZiMmU4MDUzZjMyMjNhNmFjZWEwMzMzOGUxYzI4NTQzZDdkZGNjYTQ3NzkyYmRiZSJ9fX0=
+  glow_squid:
+    name: Squid
+    cost: 8500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjZDBiNWViNmIzODRkYjA3NmQ4NDQ2MDY1MjAyOTU5ZGRkZmYwMTYxZTBkNzIzYjNkZjBjYzU4NmQxNmJiZCJ9fX0=
+  wolf:
+    name: Wolf
+    cost: 250000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVhNjUxNzhmMjdiNTI5OGZkOGYxZmNjZmNiM2VhNDc3NWNhOWQyMzUwMTNmNGIzOGUzNGI4MjBjODgwZDg2MSJ9fX0=
+  mushroom_cow:
+    name: Mushroom Cow
+    cost: 68000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0=
+  snowman:
+    name: Snowman
+    cost: 125000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExMzY2MTZkOGM0YTg3YTU0Y2U3OGE5N2I1NTE2MTBjMmIyYzhmNmQ0MTBiYzM4Yjg1OGY5NzRiMTEzYjIwOCJ9fX0=
+  ocelot:
+    name: Ocelot
+    cost: 67000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc2ZWFjYzY2MDE2YjIzYmMxZWQ4NzU0M2YyZjE4MjJhZDEyZjJmNzBlN2Q0ZDI2NWY1YzRhYWFlMjhmIn19fQ==
+  iron_golem:
+    name: Iron Golem
+    cost: 10000000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
+  horse:
+    name: Horse
+    cost: 76000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19
+  rabbit:
+    name: Rabbit
+    cost: 99000 .0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEwN2YyODdhMjFmNTcwYzhmNzk0NGVlYjA4OGFjYzU5N2EzZTIxYTlmM2VkYjQ1NDA1ZTE4ZGFiZDEzNTA4ZSJ9fX0=
+  polar_bear:
+    name: Polar Bear
+    cost: 2500000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1ZDYwYTRkNzBlYzEzNmE2NTg1MDdjZTgyZTM0NDNjZGFhMzk1OGQ3ZmNhM2Q5Mzc2NTE3YzdkYjRlNjk1ZCJ9fX0=
+  llama:
+    name: Llama
+    cost: 45000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc3NmE3OGY5NjI0NGUzZGE3MzJmYWZmZDkzYTMzOTgzNGRiMjdiNjk1NWJmN2E5YjI0YWU5ODEyNWI3ZWQifX19
+  parrot:
+    name: Parrot
+    cost: 15000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRjODkzZTk2NDU3OThiZGQ2YWRjM2FmY2Q5YzAyNjQ3MjkzMGUyOTdhOTU3YTRjNTU4N2UyZjEwOTczMWIzIn19fQ==
+  creeper:
+    name: Creeper
+    cost: 3500000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQyNTQ4MzhjMzNlYTIyN2ZmY2EyMjNkZGRhYWJmZTBiMDIxNWY3MGRhNjQ5ZTk0NDQ3N2Y0NDM3MGNhNjk1MiJ9fX0=
+  skeleton:
+    name: Skeleton
+    cost: 1500000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdlZmZjZTM1MTMyYzg2ZmY3MmJjYWU3N2RmYmIxZDIyNTg3ZTk0ZGYzY2JjMjU3MGVkMTdjZjg5NzNhIn19fQ==
+  spider:
+    name: Spider
+    cost: 1000000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVjZWRmNDJhNjFlMTQyMzEzMTE3NzI4YTEwMTMzMjljZjlmNjcxN2Q2YWNjYzVhNzVmYzA0NDI1ODA0NSJ9fX0=
+  dolphin:
+    name: Dolphin
+    cost: 72000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ==
+  cat:
+    name: Cat
+    cost: 10000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBkYmE5NDJjMDZiNzdhMjgyOGUzZjY2YTFmYWVjNWU4NjQzZTllYTYxYTgxYTQ1MjMyNzk3MzllZDgyZCJ9fX0=
+  panda:
+    name: Panda
+    cost: 25000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwMDg1ODkyNmNkOGNkZjNmMWNmNzFlMjEwY2RlNWRhZjg3MDgzMjA1NDdiZDZkZjU3OTU4NTljNjhkOWIzZiJ9fX0=
+  cod:
+    name: Cod
+    cost: 15000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY5MWExNDg2N2VmOTg2Nzg3MmRjZGM4YzU0ZTNkNGNmYjVlNTI1ZGNjZmI3Zjk5YTczMTRhNDVmYWViMzAxZSJ9fX0=
+  salmon:
+    name: Salmon
+    cost: 12500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYzU3ZDA5MDU5ZTQ3OTlmYTkyYzE1ZTI4NTEyYmNmYWExMzE1NTc3ZmUzYTI3YWVkMzg5ZTRmNzUyMjg5YSJ9fX0=
+  pufferfish:
+    name: Pufferfish
+    cost: 50000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3YmMwZDc2YWM2ZGU3MzllOWU4NTcyNzkzMWVjODIzNDQ3Mzk3NDUyMDU5ZmYzODE0MWQzNzE3OWVkYmUxIn19fQ==
+  tropical_fish:
+    name: Trophical Fish
+    cost: 13500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYzODlhY2Q3YzgyODBkMmM4MDg1ZTZhNmE5MWUxODI0NjUzNDdjYzg5OGRiOGMyZDliYjE0OGUwMjcxYzNlNSJ9fX0=
+  axolotl:
+    name: Axolotl
+    cost: 8500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThhOGEyZDdjY2YwYzM3NDZlMjNhYjU0OTEwNzBlMDkyM2YwNWIyMzVmOWEyZjVkNTNkMzg0MzUzODUzYmRkYyJ9fX0=
+  bat:
+    name: Bat
+    cost: 3500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5NmFhNmQxOGVkYzViNzI0YmQ4OWU5ODNiYzMyMTVhNDFiZjc3NWQxMTI2MzVlOWI1ODM1ZDFiOGFkMjBjYiJ9fX0=
+  villager:
+    name: Villager
+    cost: 1000000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19
+  turtle:
+    name: Turtle
+    cost: 850000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQxOTVjMjE2YmNmMzY1YWFkZGE1YmE3MWZiZTdlMzY4YzQyYWE1ODFlMDY1YjE5YWMwN2JiMmU4ODQ2YjQzZiJ9fX0=
+  trader_llama:
+    name: Trader Llama
+    cost: 750000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNDc4MGIzYzVjNTM1MWNmNDlmYjViZjQxZmNiMjg5NDkxZGY2YzQzMDY4M2M4NGQ3ODQ2MTg4ZGI0Zjg0ZCJ9fX0=
+    enabled: false
+  wandering_trader:
+    name: Wandering Trader
+    cost: 1050000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0=
+    enabled: true
+  fox:
+    name: Fox
+    cost: 2500.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3ZDhiNDQ5NGY1YTNhZjdlZWM4N2RiYjM0NjZjZDNkZGE3ODM1Y2Y1ZDNhMzVkMWQ2YTFmYTQzMzdlMGIzIn19fQ==
+  bee:
+    name: Bee
+    cost: 55000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NDE5ODdlODI1YTI0ZWE3YmFhZmFiOTgxOTM0NGI2YzI0N2M3NWM1NGE2OTE5ODdjZDI5NmJjMTYzYzI2MyJ9fX0=
+  wither_skeleton:
+    name: Wither Skeleton
+    cost: 5000000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1M2I2YzY4NDQ4ZTdlNmI2YmY4ZmIyNzNkNzIwM2FjZDhlMWJlMTllODE0ODFlYWQ1MWY0NWRlNTlhOCJ9fX0=
+  stray:
+    name: Stray
+    cost: 55000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM1MDk3OTE2YmMwNTY1ZDMwNjAxYzBlZWJmZWIyODcyNzdhMzRlODY3YjRlYTQzYzYzODE5ZDUzZTg5ZWRlNyJ9fX0=
+    enabled: true
+  husk:
+    name: Husk
+    cost: 85000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5Yjg1OTc4MjZhZTRlODNkZDNkMGNhNmRjZDkwN2VjZDVlM2RiYzk0NjQxNmFkZDk0YTY4YzYxOTE1OGU4NCJ9fX0=
+  zombie_villager:
+    name: Zombie Villager
+    cost: 65000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlMDhhODc3NmMxNzY0YzNmZTZhNmRkZDQxMmRmY2I4N2Y0MTMzMWRhZDQ3OWFjOTZjMjFkZjRiZjNhYzg5YyJ9fX0=
+  skeleton_horse:
+    name: Skeleton Horse
+    cost: 550000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdlZmZjZTM1MTMyYzg2ZmY3MmJjYWU3N2RmYmIxZDIyNTg3ZTk0ZGYzY2JjMjU3MGVkMTdjZjg5NzNhIn19fQ==
+  zombie_horse:
+    name: Zombie Horse
+    cost: 450000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg5NmExZGJkZTFhMTk1NDBjZTczMzZjNmM5NGY1OTY1MmFhOThiYjEwNjhiMmVmOGM4ZmE2ZWY4NTgwNGY1NyJ9fX0=
+  donkey:
+    name: Donkey
+    cost: 250000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyNTI2NmQ0MGNlY2Q5M2QwNTMxNTZlNGE0YTc4NDE0MGQwMzQyNTVjNzIxY2MzNzVkMWMzNjQ4MzQyYjZmZCJ9fX0=
+  mule:
+    name: Mule
+    cost: 150000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYyNzIyMzNjMWViMWJmNDdiYWY1YzZjZjg2ZjkzZDE1YWY5NzA4YWQyY2ExOGY2YzkwMTUzNDk5MjI2ODg1In19fQ==
+  zombie:
+    name: Zombie
+    cost: 550000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1ZDRiYjFjMDFlZDQ4MjMwYjU4MWQ1YzMyODNjYzIzYTg5MWViZGRhMDgzNjJkODlhMmI3ZjM2MGUxIn19fQ==
+  slime:
+    name: Slime
+    cost: 450000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZmMGJlY2Y2ZmQ2ZmE4YjEwZDU5MmI1OThiMjg3N2IzMTdiMzAxNjdjNDcwZDQyNzU4NzVlYTA5MDg3In19fQ==
+  enderman:
+    name: Enderman
+    cost: 3750000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlmMmViOWRiYzk2MmE0ZDlmZDNiYTI2Njg4MDBmMTEyZDA4ZmJmY2RkZDVmMzc0NTcxZDljMjJlOGM5MTQyMSJ9fX0=
+  cave_spider:
+    name: Cave Spider
+    cost: 850000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19
+  blaze:
+    name: Blaze
+    cost: 1000000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ==
+    butcher-drops:
+      - 'BLAZE_ROD:0:1'
+  magma_cube:
+    name: Magma Cube
+    cost: 850000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0=
+  witch:
+    name: Witch
+    cost: 1250000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmYTJjYTRlNDg4MzFiOTgwZTkzMDg0YmQ0MjgxZGM1NDQ1YzM4MmM3ODY4NTZmOWUyNjUzMzIyYmViMTk0In19fQ==
+    enabled: true
+  piglin:
+    name: Piglin
+    cost: 5800000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDcxYjNhZWUxODJiOWE5OWVkMjZjYmY1ZWNiNDdhZTkwYzJjM2FkYzA5MjdkZGUxMDJjN2IzMGZkZjdmNDU0NSJ9fX0==
+  zombified_piglin:
+    name: Zombified Piglin
+    cost: 6500000.0
+    skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhYmFlY2M1ZmFlNWE4YTQ5Yzg4NjNmZjQ4MzFhYWEyODQxOThmMWEyMzk4ODkwYzc2NWUwYThkZTE4ZGE4YyJ9fX0==

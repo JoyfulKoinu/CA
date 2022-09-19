@@ -1,0 +1,4 @@
+prefix: '&9Races of Thana&c:'
+refund-token: '&cYou were given back your token!'
+give-wrong-item: '&cThat is not a race-token!'
+teleport-race-spawn: '&cYou have been teleported!'

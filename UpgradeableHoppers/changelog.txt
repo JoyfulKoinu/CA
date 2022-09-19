@@ -1,0 +1,1 @@
+- Fixed: Missing language entries for teleportation and /hopper admin listperms

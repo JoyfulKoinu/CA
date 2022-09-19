@@ -1,0 +1,290 @@
+race-gui-name: '&c» &eSelect your race!'
+gui-slots: 36
+time-check-rate: 20
+potion-effect-duration: 21
+sound-volume: 0.5
+force-race-on-join: true
+motd-enabled: false
+per-race-permissions: false
+race-token-enabled: true
+token-permission-required: false
+hooks:
+- LoreAttributesRecoded
+blacklisted-worlds:
+- exampleWorld
+- exampleWorld2
+race-token:
+  display-name: '&6Race Token'
+  material: NETHER_STAR
+  durability: 0
+  lore:
+  - '&eGive this to the race npc'
+  - '&eto change your race!'
+  item-flags:
+  - HIDE_ATTRIBUTES
+gui:
+  banner0:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 0
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner1:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 1
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner2:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 2
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner3:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 3
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner4:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 4
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner5:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 5
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner6:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 6
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner7:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 7
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner8:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 8
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner9:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 9
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner10:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 17
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner11:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 18
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner12:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 26
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner13:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 27
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner14:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 28
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner15:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 29
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner16:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 30
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner17:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 31
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+    data: 0
+  banner18:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 32
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner19:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 33
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner20:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 34
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES
+  banner21:
+    display-name: '&0'
+    material: BLACK_STAINED_GLASS_PANE
+    durability: 0
+    slot: 35
+    lore:
+    - '&4» &cSelect your race!'
+    - ''
+    - '&6» &3Hover over a race'
+    - '&6» &3for more info!'
+    item-flags:
+    - HIDE_ATTRIBUTES

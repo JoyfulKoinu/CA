@@ -1,0 +1,61 @@
+display-name: '&dHuman'
+hurt-sound: ENTITY_PLAYER_HURT
+death-sound: ENTITY_PLAYER_DEATH
+race-color: LIGHT_PURPLE
+permissions:
+- human.permission
+- -human.negated.permission
+commands:
+  enabled: true
+  race-change-commands:
+  - bc %player_name% became a(n) %player_race_displayname%!
+  race-commands-day:
+  - tellraw %player_name% {"text":"The sun has risen","color":"red"}
+  race-commands-night:
+  - tellraw %player_name% {"text":"The night has fallen","color":"red"}
+potions:
+  enabled: true
+  potion-bubbles: false
+  potioneffects:
+  - REGENERATION:1
+  - INCREASE_DAMAGE:1
+  day-effects:
+  - NIGHT_VISION:1
+damage:
+  enabled: false
+  water-damage: false
+  out-of-water-damage: false
+  lava-damage: false
+  affect-fire: false
+  water-damage-amount: 2
+  out-of-water-damage-amount: 2
+  lava-damage-amount: 2
+gui:
+  enabled: true
+  display-name: '&6&lHuman'
+  material: skull:8488b0343980fcf217d7cbb75d730adca04a8b6a7b138386acaa7fc994a858a2
+  durability: 0
+  lore:
+  - '&dA weak race, but strong together!'
+  - '&f-----------------------------'
+  - '&a- Knockback Resistance'
+  - '&a- Increased Follow Range for Pets'
+  - '&c- Increased Zombie Reinforcements'
+  - '&f-----------------------------'
+  - '&d&oQuote by Joyfulneko "I will blow you"'
+  - '&d&l[ &d&lCLICK TO CHOOSE &d&l]'
+  slot: 12
+  item-flags:
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  item-enchantments:
+  - DURABILITY
+race-location:
+  enabled: true
+  location: world:128:66:-112
+  teleport-on-death: false
+  temp-op: false
+attributes:
+  - GENERIC_KNOCKBACK_RESISTANCE: 3
+  - GENERIC_FOLLOW_RANGE: 10
+  - ZOMBIE_SPAWN_REINFORCEMENTS: 5

@@ -1,0 +1,308 @@
+# Here you can edit all GUI menus.
+#
+# If you encounter any issues or have questions:
+# Discord: https://discord.gg/B4MAJVk
+#
+# Wiki: https://github.com/Angeschossen/General/wiki/GUI-Menus
+
+general:
+  wYes: '&aYes'
+  wNo: '&cNo'
+  none: '&cNone'
+  now: '&aNow'
+  enabled: '&aEnabled'
+  disabled: '&cDisabled'
+  previous: previous
+  unlimited: '&aunlimited'
+  others: Others
+  max: '&cMax reached'
+  destination: '&a{block}&8, &7World:&2 {world}&8, &7X:&2 {x}&8, &7Y:&2 {y}&8, &7Z:&2
+    {z}'
+  filter:
+    blacklist: '&8Blacklist'
+    whitelist: '&fWhitelist'
+
+physical:
+  hopper:
+    name: '&a{type}'
+    lore:
+    - '&7With this item you'
+    - '&7can create a better'
+    - '&7hopper by placing'
+    - '&7it somewhere.'
+    - ''
+    - '&8> &7Stats'
+    - '  &7Owner:&2 {owner}'
+    - '  &7Transfer amount:&a {transfer} &7items'
+    - '  &7Suction radius:&a {suction}'
+    - '  &7Links:&a {links} &7links'
+    - '  &7Max distance:&a {distance} &7blocks'
+    material: HOPPER
+  currency:
+    name: ''
+    lore: []
+    material: GOLD_INGOT
+
+common:
+  size: 45
+  entries: 10-36
+  items:
+    default:
+      back:
+        name: '&c&lBack'
+        lore:
+        - '&8✖ &7Go back to'
+        - '   &7{back}.'
+        material: RED_STAINED_GLASS_PANE
+        slots: 37
+      refresh_page_previous:
+        name: '&c&lPrevious Page'
+        lore:
+        - '&8✖ &7Go to the previous page:&3 {previous}'
+        material: ARROW
+        slots: 38
+      refresh_page_next:
+        name: '&a&lNext Page'
+        lore:
+        - '&8✖ &7Go to the next page:&3 {next}'
+        material: ARROW
+        slots: 44
+      placeholder_1:
+        material: GRAY_STAINED_GLASS_PANE
+        slots: 1-45
+      child_failure_page_previous:
+        name: '&4&lNo Previous Page'
+      child_failure_page_next:
+        name: '&4&lNo Next Page'
+
+gui:
+  hopper_main:
+    title: '&8{type}'
+    items:
+      default:
+        links:
+          name: '&6&lLinks'
+          lore:
+          - '&8✖ &7Edit the filters for your'
+          - '   &7linked containers.'
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNThiYzhmYTcxNmNhZGQwMDRiODI4Y2IyN2NjMGY2ZjZhZGUzYmU0MTUxMTY4OGNhOWVjZWZmZDE2NDdmYjkifX19
+          slots: 30
+        upgrade_transfer_amount:
+          name: '&6&lTransfer Amount'
+          lore:
+          - '&8✖ &7Upgrade amount of items that'
+          - '   &7are transferred each cycle.'
+          - ''
+          - '   &8• &7Current: {value}'
+          - ''
+          - '   &8• &7Next:&a {value_next}'
+          - '     &7Cost:&c {cost}'
+          material: HOPPER
+          slots: 12
+        refresh_upgrade_links_amount:
+          name: '&6&lLinks Amount'
+          lore:
+          - '&8✖ &7Upgrade the maximum amount'
+          - '   &7of links.'
+          - ''
+          - '   &8• &7Current: {value}'
+          - ''
+          - '   &8• &7Next:&a {value_next}'
+          - '     &7Cost:&c {cost}'
+          material: CHEST
+          slots: 11
+        upgrade_suction_radius:
+          name: '&6&lSuction Radius'
+          lore:
+          - '&8✖ &7Upgrade the suction radius.'
+          - '   &7The hopper sucks all items that'
+          - '   &7are in this radius.'
+          - ''
+          - '   &8• &7Current: {value}'
+          - ''
+          - '   &8• &7Next:&a {value_next}'
+          - '     &7Cost:&c {cost}'
+          material: BEACON
+          slots: 13
+        upgrade_suction_radius_chunk:
+          name: '&6&lSuction Radius'
+          lore:
+          - '&8✖ &7Upgrade the chunk suction radius.'
+          - '   &7The hopper sucks all items that'
+          - '   &7are in these chunks.'
+          - ''
+          - '   &8• &7Current: {value}'
+          - ''
+          - '   &8• &7Next:&a {value_next}'
+          - '     &7Cost:&c {cost}'
+          material: BEACON
+          slots: 13
+        upgrade_link_distance:
+          name: '&6&lMax Link Distance'
+          lore:
+          - '&8✖ &7Upgrade the maximum link'
+          - '   &7distance.'
+          - ''
+          - '   &8• &7Current: {value}'
+          - ''
+          - '   &8• &7Next:&a {value_next}'
+          - '     &7Cost:&c {cost}'
+          material: COMPASS
+          slots: 14
+        linking:
+          name: '&6&lLink to Containers &8(&7{amount}&8/&c{max}&8)'
+          lore:
+          - '&8✖ &bLEFT CLICK'
+          - '   &7Link this hopper to'
+          - '   &7a container.'
+          - ''
+          - '&8✖ &9RIGHT CLICK'
+          - '   &7Unlink a container from'
+          - '   &7this hopper.'
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBiZmMyNTc3ZjZlMjZjNmM2ZjczNjVjMmM0MDc2YmNjZWU2NTMxMjQ5ODkzODJjZTkzYmNhNGZjOWUzOWIifX19
+          slots: 29
+        toggle-suction:
+          name: '&6&lToggle Suction: {enabled}'
+          lore:
+          - '&8✖ &7Toggle the suction radius.'
+          - ''
+          - '   &8• &7&nIf disabled:'
+          - '       &7Vanilla suction will be used'
+          - '       &7instead.'
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyZmYyNDRkZmM5ZGQzYTJjZWY2MzExMmU3NTAyZGM2MzY3YjBkMDIxMzI5NTAzNDdiMmI0NzlhNzIzNjZkZCJ9fX0=
+          slots: 31
+        filter-delete:
+          name: '&6&lDelete Items: {enabled}'
+          lore:
+          - '&8✖ &c&nDelete&7 items that &ndon''t fit'
+          - '   &7&nany filter&7 of your links?'
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=
+          slots: 32
+        child_failure_max:
+          name: '&4&lMax Level reached'
+          lore:
+          - '&cThis hopper has already reached'
+          - '&cthe highest level for this upgrade.'
+        child_failure_cost:
+          name: '&4&lNot enough Money'
+          lore:
+          - '&7You need&c {cost} &7for that.'
+        child_failure_perm:
+          name: '&4&lUpgrade locked'
+          lore:
+          - '&7You''re missing the permission'
+          - '&7to upgrade this level type for'
+          - '&7any hopper.'
+  
+  list_filter:
+    title: '&7Link Filter'
+    items:
+      default:
+        whitelist:
+          name: '&6&lMode: {enabled}'
+          lore:
+          - '&8✖ &7Toggle the filter mode.'
+          - ''
+          - '   &8• &8&lBlacklist:'
+          - '      &7Don''t allow items that are'
+          - '      &7listed in this filter.'
+          - ''
+          - '   &8• &f&lWhitelist:'
+          - '      &7Only allow items that are'
+          - '      &7listed in this filter.'
+          material: HOPPER
+          slots: 41
+        strict:
+          name: '&6&lStrict Filtering: {enabled}'
+          lore:
+          - '&8✖ &7Toggle strict filtering.'
+          - ''
+          - '   &8• &7&lIf enabled:'
+          - '     &7The filter will additionally compare'
+          - '     &7items by their name, lore, enchants,'
+          - '     &7durability and all the other information.'
+          - ''
+          - '   &8• &7If you, for example, want to'
+          - '     &7filter specific potions and not'
+          - '     &7just all, you must enable this'
+          - '     &7setting.'
+          material: OAK_DOOR
+          slots: 42
+        entry_object:
+          name: '&6&l{item}'
+          lore:
+          - '&8✖ &7Remove this item.'
+          material: INHERIT
+  
+  list_links:
+    title: '&8Links'
+    items:
+      default:
+        refresh_insert_by_order:
+          name: '&6&lInsert by Order: {status}'
+          lore:
+          - '&8✖ &7Insert items by link order?'
+          - ''
+          - '   &8• &7&lIf enabled:'
+          - '     &7Items are always added to the first'
+          - '     &7link which filter accepts the item.'
+          - '     &7They aren''t distributed equally'
+          - '     &7over all links that accept this item.'
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFiYzJiY2ZiMmJkMzc1OWU2YjFlODZmYzdhNzk1ODVlMTEyN2RkMzU3ZmMyMDI4OTNmOWRlMjQxYmM5ZTUzMCJ9fX0=
+          slots: 41
+        entry_object:
+          name: '&6&l{name}'
+          lore:
+          - '&8✖ &7Manage the filter.'
+          - ''
+          - '&8✖ &9RIGHT CLICK'
+          - '   &7Rename'
+          - '&8✖ &eKey Q'
+          - '   &7Unlink'
+          - ''
+          - '&7&lIf insert by order is enabled:'
+          - ' &8✖ &bSHIFT + LEFT CLICK'
+          - '    &7Higher priority'
+          - ' &8✖ &9SHIFT + RIGHT CLICK'
+          - '    &7Lower priority'
+          - ''
+          - ' &8• &7Information:'
+          - '   &7Type: {type}'
+          - '   &7World: {world}'
+          - '   &7X: {x} Y: {y} Z: {z}'
+          material: HOPPER
+  
+  list_player_list:
+    title: '&8Upgradeable Hoppers'
+    items:
+      default:
+        entry_object:
+          name: '&6&lWorld: {world} X: {x} Y: {y} Z: {z}'
+          lore:
+          - '&8✖ &7Open the hoppers menu.'
+          - ''
+          - '&8✖ &9RIGHT CLICK'
+          - '    &7Teleport to the hopper'
+          - '    &7for&c {cost}&7.'
+          material: HOPPER
+        child_failure_cost:
+          name: '&4&lNot enough Money'
+          lore:
+          - '&7You need&c {cost} &7for that.'
+        child_failure_permission:
+          name: '&4&lMissing Permission'
+          lore:
+          - '&7You''re missing the permission to'
+          - '&7do this.'
+        child_failure_unloaded:
+          name: '&4&lChunk unloaded'
+          lore:
+          - '&cYou can''t open the menu of a'
+          - '&chopper, which is located in'
+          - '&ca unloaded region.'
+common_sounds:
+  # Play a sound when the item is set in the menu.
+  set:
+    # Each item starting with [item_type]_failure_<name> will have this sound set.
+    # You can still override the "sound_set" for any item in their sections.
+    failure: ENTITY_VILLAGER_NO

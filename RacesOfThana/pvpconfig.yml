@@ -1,0 +1,8 @@
+pvp-module-enabled: false
+races:
+  werewolf:
+    enabled: false
+    allies: example1,example2
+  human:
+    enabled: false
+    allies: example1,example2
