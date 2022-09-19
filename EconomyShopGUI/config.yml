@@ -301,7 +301,7 @@ sellgui-nav-bar:
 allow-renamed-items: true
 
 # Allows items with different lore to be sold to the shop
-allow-lore-items: true
+allow-lore-items: false
 
 # Enable/disable the lore on items given to players when an item is bought from shop
 bought-items-lore: true

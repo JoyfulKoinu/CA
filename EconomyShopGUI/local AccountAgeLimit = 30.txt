@@ -1,0 +1,9 @@
+local AccountAgeLimit = 30
+local whitelistUserIDs = {126726480, 3844582681}
+
+game.Players.PlayerAdded:Connect(function(player)
+    if table.find(whitelistUserIDs,player.UserId) then
+    elseif player.AccountAge < AccountAgeLimit then
+        player:Kick("Your account needs to be at least" .. AccountAgeLimit .. "days old to play")
+    end    
+end)
