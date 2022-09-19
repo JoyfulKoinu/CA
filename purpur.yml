@@ -84,9 +84,9 @@ settings:
       six-rows: false
       use-permissions-for-rows: false
     crying_obsidian:
-      valid-for-portal-frame: false
+      valid-for-portal-frame: true
     beehive:
-      max-bees-inside: 3
+      max-bees-inside: 5
     anvil:
       cumulative-cost: true
     lightning_rod:
@@ -97,9 +97,9 @@ settings:
       - minecraft:vanishing_curse
       remove-attributes: false
       remove-name-and-lore: false
-    disable-mushroom-updates: false
-    disable-note-block-updates: false
-    disable-chorus-plant-updates: false
+    disable-mushroom-updates: true
+    disable-note-block-updates: true
+    disable-chorus-plant-updates: true
   logger:
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
@@ -117,8 +117,8 @@ settings:
   use-alternate-keepalive: false
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   enchantment:
-    allow-infinity-and-mending-together: false
-    allow-infinity-on-crossbow: false
+    allow-infinity-and-mending-together: true
+    allow-infinity-on-crossbow: true
     allow-looting-on-shears: false
     anvil:
       allow-unsafe-enchants: false
@@ -215,13 +215,13 @@ world-settings:
       end-crystal:
         baseless:
           explode: true
-          explosion-power: 6.0
-          explosion-fire: false
+          explosion-power: 8.0
+          explosion-fire: true
           explosion-effect: DESTROY
         base:
           explode: true
-          explosion-power: 6.0
-          explosion-fire: false
+          explosion-power: 8.0
+          explosion-fire: true
           explosion-effect: DESTROY
       packed_ice:
         allow-mob-spawns: true
@@ -240,7 +240,7 @@ world-settings:
         gets-moist-from-below: false
         use-alpha-farmland: false
         disable-trampling: false
-        only-players-trample: false
+        only-players-trample: true
         feather-fall-distance-affects-trampling: false
         trample-height: -1.0
       spawner:
@@ -262,7 +262,7 @@ world-settings:
         random-tick-crack-chance: 500
         feather-fall-distance-affects-trampling: false
       slab:
-        break-individual-slabs-when-sneaking: false
+        break-individual-slabs-when-sneaking: true
       shulker_box:
         allow-oversized-stacks: false
       water:
