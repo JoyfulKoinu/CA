@@ -70,14 +70,14 @@ collect-block-exp: true
 
 # when set to true, mob/entity drops will be automatically collected if the plugin is enabled
 # Note: Drops from entities (item frames, minecarts, etc.) count as mob drops
-collect-mob-drops: false
+collect-mob-drops: true
 
 # when set to true, mob/entity experience orbs will be automatically collected if the plugin is enabled
 collect-mob-exp: true
 
 # when set to true, fishes / drops caught via fishing will be automatically collected if the plugin is enabled
 # Note: Disabled by default because this also removes the "drop flying towards player" animation
-collect-fishing-drops: false
+collect-fishing-drops: true
 
 # the default radius in which Drop2Inventory looks for drops.
 # You only need to raise this value if you have problems when drops from other plugins aren't detected.
@@ -165,7 +165,7 @@ event-priority: HIGHEST
 # by the nearest player.
 # Right now it's not possible to detect what player caused an
 # explosion, but it might be added in the future.
-detect-explosion-drops: true
+detect-explosion-drops: false
 
 # Ignores items spawned above or near hoppers
 # The vertical range checks up to X blocks below the item for hoppers
