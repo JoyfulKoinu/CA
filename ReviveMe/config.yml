@@ -117,7 +117,7 @@ commands_config:
 # Here you can choose what types of damage ReviveMe should ignore in case the mode is blacklist or what types of damage should be for it to work in case of whitelist
 # damages list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
 damages_type:
-  enabled: true
+  enabled: false
   mode: Blacklist
   list:
   - void
