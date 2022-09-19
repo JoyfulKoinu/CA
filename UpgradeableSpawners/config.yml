@@ -64,7 +64,7 @@ spawner:
   # Allow only the owner
   # of the spawner item
   # to place it down.
-  only-owner: true
+  only-owner: false
   # Should a spawner always spawn entities? That means that there are no spawn conditions, except the levels from levels.yml (except player_range).
   # All spawners will be able to spawn in air and underwater. There are no restrictions.
   # NOTE: This option required server reload / restart.
@@ -73,7 +73,7 @@ spawner:
   # The player who broke the spawners will be set as the new owner of the spawner item.
   # NOTE: The owner of the spawner can always delete / break their spawners.
   # NOTE: This setting requires server reload / restart.
-  visitor-break: false
+  visitor-break: true
   # Allow changing the entity type of upgradeable spawner?
   # If you also want to disable eggs, make sure to disable the setting below (vanilla.egg).
   # You can also disable specific items in the GUI menu by adding enabled: false to the item configuration in the GUI language file.
@@ -151,7 +151,7 @@ protection:
 limit:
   # Set the maximum amount of upgradeable spawners in one chunk.
   # Disable: 0
-  max-per-chunk: 5
+  max-per-chunk: 4
   # Should spawned entities from an upgradeable spawner have AI?
   # If set to false, these entities will not move, but will still be pushed by water.
   # This helps to improve server performance.
@@ -183,7 +183,7 @@ limit:
     # Example: Allow the spawner to spawn x entities every 1 hour.
     # The max amount of entities per period can be upgraded per spawner. Providing a useful upgrade and performance improvement at the same time.
     # Timeunits: d, h, m, s
-    time_time: 15s
+    time_time: 5s
 
 
 
