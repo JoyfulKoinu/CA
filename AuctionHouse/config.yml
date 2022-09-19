@@ -31,13 +31,13 @@ auction setting:
     max auction increment price: 1000000000
 
     # The min price for buy only / buy now items
-    min auction price: 1
+    min auction price: 0
 
     # The min price starting a bidding auction
-    min auction start price: 1
+    min auction start price: 0
 
     # The min amount for incrementing a bid.
-    min auction increment price: 1
+    min auction increment price: 100
   purchase:
 
     # Should the owner of an auction be able to purchase it?
