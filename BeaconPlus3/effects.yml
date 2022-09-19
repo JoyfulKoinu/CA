@@ -8,7 +8,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 12500
+          Vault: 50000
           Emerald: 30
           Level: 25
         Description: '{language.effects.furnace-tier-1}'
@@ -20,7 +20,7 @@ Effects:
           Type: POWER_REQUIREMENT
           Minimum: 10
       - Cost:
-          Vault: 25000
+          Vault: 100000
           Emerald: 60
           Level: 30
         Description: '{language.effects.furnace-tier-2}'
@@ -32,7 +32,7 @@ Effects:
           Type: POWER_REQUIREMENT
           Minimum: 10
       - Cost:
-          Vault: 60000
+          Vault: 150000
           Emerald: 120
           Level: 35
         Description: '{language.effects.furnace-tier-3}'
@@ -44,7 +44,7 @@ Effects:
           Type: POWER_REQUIREMENT
           Minimum: 10
       - Cost:
-          Vault: 150000
+          Vault: 200000
           Emerald: 240
           Level: 40
         Description: '{language.effects.furnace-tier-4}'
@@ -63,7 +63,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 5000
+          Vault: 50000
           Emerald: 10
           Level: 5
         Description: '{language.effects.strength-tier-1}'
@@ -77,7 +77,7 @@ Effects:
               Type: TYPE_FILTER
               Filter: PLAYER
       - Cost:
-          Vault: 10000
+          Vault: 100000
           Emerald: 20
           Level: 10
         Description: '{language.effects.strength-tier-2}'
@@ -91,7 +91,7 @@ Effects:
               Type: TYPE_FILTER
               Filter: PLAYER
       - Cost:
-          Vault: 20000
+          Vault: 150000
           Emerald: 40
           Level: 20
         Description: '{language.effects.strength-tier-3}'
@@ -109,10 +109,10 @@ Effects:
     Item:
       type: ENDER_PEARL
     Description: '{language.effects.invis-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
-          Vault: 25000
+          Vault: 50000
           Emerald: 50
           Level: 15
         Description: '{language.effects.invis-tier-1}'
@@ -146,7 +146,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 50000
+          Vault: 85000
           Emerald: 100
           Level: 30
         Description: '{language.effects.regen-tier-1}'
@@ -161,7 +161,7 @@ Effects:
           Filter: PLAYER or TAMED or VILLAGER
       - Power Consumption: 2
         Cost:
-          Vault: 150000
+          Vault: 155000
           Emerald: 300
           Level: 60
         Description: '{language.effects.regen-tier-2}'
@@ -181,7 +181,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 5000
+          Vault: 75000
           Emerald: 10
           Level: 5
         Description: '{language.effects.resist-tier-1}'
@@ -195,7 +195,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 10000
+          Vault: 115000
           Emerald: 20
           Level: 10
         Description: '{language.effects.resist-tier-2}'
@@ -209,7 +209,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 20000
+          Vault: 185000
           Emerald: 40
           Level: 20
         Description: '{language.effects.resist-tier-3}'
@@ -230,7 +230,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 5000
+          Vault: 50000
           Emerald: 10
           Level: 5
         Description: '{language.effects.dig-tier-1}'
@@ -244,7 +244,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 10000
+          Vault: 100000
           Emerald: 20
           Level: 10
         Description: '{language.effects.dig-tier-2}'
@@ -258,7 +258,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 20000
+          Vault: 150000
           Emerald: 40
           Level: 20
         Description: '{language.effects.dig-tier-3}'
@@ -276,7 +276,7 @@ Effects:
     Item:
       type: POTION
     Description: '{language.effects.cure-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 15000
@@ -434,7 +434,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 25000
+          Vault: 50000
           Emerald: 60
           Level: 20
         Description: '{language.effects.crops-tier-1}'
@@ -445,7 +445,7 @@ Effects:
             Crops Blacklist:
               - VINE
       - Cost:
-          Vault: 60000
+          Vault: 100000
           Emerald: 120
           Level: 25
         Description: '{language.effects.crops-tier-2}'
@@ -467,7 +467,7 @@ Effects:
             Crops Blacklist:
               - VINE
       - Cost:
-          Vault: 400000
+          Vault: 200000
           Emerald: 300
           Level: 35
         Description: '{language.effects.crops-tier-4}'
@@ -478,7 +478,7 @@ Effects:
             Crops Blacklist:
               - VINE
       - Cost:
-          Vault: 1000000
+          Vault: 250000
           Emerald: 720
           Level: 40
         Description: '{language.effects.crops-tier-5}'
@@ -489,7 +489,7 @@ Effects:
             Crops Blacklist:
               - VINE
       - Cost:
-          Vault: 2400000
+          Vault: 300000
           Emerald: 1500
           Level: 45
         Description: '{language.effects.crops-tier-6}'
@@ -555,7 +555,7 @@ Effects:
     Item:
       type: COBWEB
     Description: '{language.effects.slow-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 5000
@@ -607,7 +607,7 @@ Effects:
     Enabled: true
     Levels:
       - Cost:
-          Vault: 5000
+          Vault: 25000
           Emerald: 10
           Level: 5
         Description: '{language.effects.speed-tier-1}'
@@ -621,7 +621,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 10000
+          Vault: 50000
           Emerald: 20
           Level: 10
         Description: '{language.effects.speed-tier-2}'
@@ -635,7 +635,7 @@ Effects:
           Type: TYPE_FILTER
           Filter: PLAYER
       - Cost:
-          Vault: 20000
+          Vault: 75000
           Emerald: 40
           Level: 20
         Description: '{language.effects.speed-tier-3}'
@@ -675,7 +675,7 @@ Effects:
     Levels:
       - Amplifier: 0
         Cost:
-          Vault: 17500
+          Vault: 25000
           Emerald: 35
           Level: 18
         Description: Everynight is day
@@ -748,7 +748,7 @@ Effects:
     Item:
       type: EXPERIENCE_BOTTLE
     Description: '{language.effects.level-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 240000
@@ -800,7 +800,7 @@ Effects:
     Item:
       type: DROPPER
     Description: '{language.effects.luck-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 50000
@@ -849,7 +849,7 @@ Effects:
     Description: '{language.effects.burner-description}'
     Item:
       type: FLINT_AND_STEEL
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 5000
@@ -889,7 +889,7 @@ Effects:
     Description: '{language.effects.fext-description}'
     Item:
       type: REDSTONE_TORCH
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 5000
@@ -908,7 +908,7 @@ Effects:
     Item:
       type: POISONOUS_POTATO
     Description: '{language.effects.poison-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 5000
@@ -957,7 +957,7 @@ Effects:
     Item:
       type: HOPPER
     Description: '{language.effects.gravity-description}'
-    Enabled: true
+    Enabled: false
     Levels:
       - Cost:
           Vault: 5000
