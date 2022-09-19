@@ -111,7 +111,7 @@ mobs-multiply-head-drops: false
 # || When player kill exceed amount of levelled mobs in
 # || a chunk(within given period). Should we send message
 # || to player to inform him?
-exceed-kill-in-chunk-message: true
+exceed-kill-in-chunk-message: false
 
 # ||  ADVANCED USERS ONLY
 # ||  Do not touch this unless a LM developer tells you to.
