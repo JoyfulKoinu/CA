@@ -1,0 +1,73 @@
+Inventory:
+  Enabled: true
+  Size: 36
+
+Equipment:
+  Enabled: true
+
+Riding:
+  Enabled: false
+
+Death:
+  Revive:
+    Cooldown: 1800
+    Cost: 250000.0
+
+Health:
+  Saturation:
+    Max: 0.0
+    Exhaust:
+      IDLE: 0.0
+      WALK: 0.0
+      COMBAT: 0.0
+  Regeneration:
+    By_Saturation:
+      '10':
+        Amount: 100.0
+        Cost: 0.0
+      '80':
+        Amount: 125.0
+        Cost: 0.0
+
+Catching:
+  Enabled: false
+  Escape_Allowed: true
+  Chance: 25.0
+  Type: HIT
+  Item:
+    Material: LEAD
+    Name: '&6&lCapture Lead'
+    Lore:
+      - '&7This is a special lead'
+      - '&7that allows you to catching pets!'
+    Enchants:
+      fortune: 1
+    Item_Flags:
+      - '*'
+  Conditions:
+    Percent_Of_Max_Health: 30.0
+
+Leveling:
+  Start_Exp: 100
+  Formula: '%exp% * 1.15'
+  Max_Level: 285
+  Points_Per_Level: 1
+
+Attributes:
+  Default:
+    GENERIC_MAX_HEALTH: 25000.0
+    GENERIC_ATTACK_DAMAGE: 125.0
+    GENERIC_ARMOR: 150.0
+    GENERIC_MOVEMENT_SPEED: 0.38
+  Per_Aspect:
+    GENERIC_MAX_HEALTH: 2.5
+    GENERIC_ATTACK_DAMAGE: 3.5
+    GENERIC_ARMOR: 4.5
+    GENERIC_MOVEMENT_SPEED: 0.01
+
+Aspects:
+  Max:
+    VITALITY: 95
+    DEFENSE: 95
+    STRENGTH: 95
+    DEXTERITY: 0

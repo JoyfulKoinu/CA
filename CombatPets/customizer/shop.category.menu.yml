@@ -1,0 +1,98 @@
+Title: '&lPet Customizations Shop'
+Size: 54
+
+Content: {}
+
+Categories:
+  age:
+    Display:
+      default:
+        Item:
+          Material: EGG
+          Name: '&eAge Customizations'
+    Slots: 0
+    Type: AGE
+
+  sheep_color:
+    Display:
+      default:
+        Item:
+          Material: LIME_WOOL
+          Name: '&aSheep Colors'
+    Slots: 1
+    Type: SHEEP_COLOR
+
+  horse_color:
+    Display:
+      default:
+        Item:
+          Material: SADDLE
+          Name: '&6Horse Colors'
+    Slots: 2
+    Type: HORSE_COLOR
+
+  horse_style:
+    Display:
+      default:
+        Item:
+          Material: BROWN_DYE
+          Name: '&6Horse Styles'
+    Slots: 3
+    Type: HORSE_STYLE
+
+  slime_size:
+    Display:
+      default:
+        Item:
+          Material: SLIME_BALL
+          Name: '&aSlime Size'
+    Slots: 5
+    Type: SLIME_SIZE
+
+  llama_color:
+    Display:
+      default:
+        Item:
+          Material: YELLOW_WOOL
+          Name: '&eLlama Colors'
+    Slots: 6
+    Type: LLAMA_COLOR
+
+  parrot_variant:
+    Display:
+      default:
+        Item:
+          Material: FEATHER
+          Name: '&bParrot Variants'
+    Slots: 7
+    Type: PARROT_VARIANT
+
+  rabbit_types:
+    Display:
+      default:
+        Item:
+          Material: RABBIT_HIDE
+          Name: '&eRabbit Types'
+    Slots: 8
+    Type: RABBIT_TYPE
+
+  cat_type:
+    Display:
+      default:
+        Item:
+          Material: OCELOT_SPAWN_EGG
+          Name: '&eCat Types'
+    Slots: 9
+    Type: CAT_TYPE
+
+  mushroom_variants:
+    Display:
+      default:
+        Item:
+          Material: RED_MUSHROOM
+          Name: '&cMushroom Variants'
+    Slots: 10
+    Type: MUSHROOM_VARIANT
+
+
+
