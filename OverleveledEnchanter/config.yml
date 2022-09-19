@@ -22,7 +22,7 @@ Too-Expensive-Always-Max-Level-Cost: true
 Enchantments:
 
   power:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   flame:
@@ -34,7 +34,7 @@ Enchantments:
     combining-level: 1
 
   punch:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   binding_curse:
@@ -46,27 +46,27 @@ Enchantments:
     combining-level: -1
 
   sharpness:
-    maxLevel: 7
+    maxLevel: 8
     combining-level: -1
 
   bane_of_arthropods:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   smite:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
 
   depth_strider:
-    maxLevel: 7
+    maxLevel: 3
     combining-level: -1
 
   efficiency:
-    maxLevel: 7
+    maxLevel: 8
     combining-level: -1
 
   unbreaking:
-    maxLevel: 7
+    maxLevel: 10
     combining-level: -1
 
   fire_aspect:
@@ -78,31 +78,31 @@ Enchantments:
     combining-level: -1
 
   impaling:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   knockback:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
 
   fortune:
-    maxLevel: 7
+    maxLevel: 8
     combining-level: -1
 
   looting:
-    maxLevel: 7
+    maxLevel: 8
     combining-level: -1
 
   loyalty:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
 
   luck_of_the_sea:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
 
   lure:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
 
   mending:
@@ -114,39 +114,39 @@ Enchantments:
     combining-level: -1
 
   respiration:
-    maxLevel: 7
-    combining-level: -1
-
-  piercing:
-    maxLevel: 7
-    combining-level: -1
-
-  protection:
-    maxLevel: 7
-    combining-level: -1
-
-  blast_protection:
-    maxLevel: 7
-    combining-level: -1
-
-  feather_falling:
-    maxLevel: 7
-    combining-level: -1
-
-  fire_protection:
-    maxLevel: 7
-    combining-level: -1
-
-  projectile_protection:
-    maxLevel: 7
-    combining-level: -1
-
-  quick_charge:
     maxLevel: 5
     combining-level: -1
 
-  riptide:
+  piercing:
     maxLevel: 6
+    combining-level: -1
+
+  protection:
+    maxLevel: 6
+    combining-level: -1
+
+  blast_protection:
+    maxLevel: 6
+    combining-level: -1
+
+  feather_falling:
+    maxLevel: 5
+    combining-level: -1
+
+  fire_protection:
+    maxLevel: 6
+    combining-level: -1
+
+  projectile_protection:
+    maxLevel: 6
+    combining-level: -1
+
+  quick_charge:
+    maxLevel: 4
+    combining-level: -1
+
+  riptide:
+    maxLevel: 5
     combining-level: -1
 
   silk_touch:
@@ -154,15 +154,15 @@ Enchantments:
     combining-level: 1
 
   soul_speed:
-    maxLevel: 7
+    maxLevel: 3
     combining-level: -1
     
   sweeping:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   thorns:
-    maxLevel: 7
+    maxLevel: 6
     combining-level: -1
 
   vanishing_curse:
@@ -170,9 +170,9 @@ Enchantments:
     combining-level: 1
     
   aqua_affinity:
-    maxLevel: 7
+    maxLevel: 5
     combining-level: -1
     
   swift_sneak:
-    maxLevel: 7
+    maxLevel: 3
     combining-level: -1
