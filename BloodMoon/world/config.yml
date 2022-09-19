@@ -10,13 +10,13 @@ IsBlacklisted: false
 #Obviously the interval option is ignored when this is on
 PermanentBloodMoon: false
 #Interval in days between BloodMoons
-BloodMoonInterval: 40
+BloodMoonInterval: 31
 #Do items despawn upon death?
 ItemDespawnUponDeath: true
 #Does experience despawn upon death?
 ExperienceDespawnsUponDeath: true
 #Maximum item amount to drop per mob death
-ItemDropsMaximum: 2
+ItemDropsMaximum: 3
 #Minimum item amount to drop per mob death
 ItemDropsMinimum: 1
 #Mob experience drop multiplicator. Whole number only
@@ -28,7 +28,7 @@ MobHealthMultiplicator: 3
 #Should there be a lightning effect on player death?
 LightningEffectOnPlayerDeath: true
 #Adds a lightning effect when a mob dies
-LightningEffectOnMobDeath: true
+LightningEffectOnMobDeath: false
 #Should there be a jingle when a BloodMoon ends?
 PlaySoundUponBloodMoonEnd: true
 #Should there be periodic creepy sounds during a BloodMoon?
@@ -38,28 +38,28 @@ DarkenSky: true
 #Plays a sound when a player gets hit
 PlaySoundUponHit: true
 #Plays a particle effect when a mob and / or player gets hit
-PlayerHitParticleEffect: true
+PlayerHitParticleEffect: false
 MobHitParticleEffect: true
 #Effect of rain and thunder during the BloodMoon
 ThunderDuringBloodMoon: true
 #Prevents sleeping during a BloodMoon
 PreventSleeping: true
 #Prevents mob created by spawner from dropping any reward
-MobsFromSpawnerNoReward: false
+MobsFromSpawnerNoReward: true
 #Prevents special effects from being applied when a player raises their shield
 ShieldPreventsEffects: true
 #Mob spawn rate during a BloodMoon.
 #0 means no mob at all, 25 is average, and anything above 100 is honestly insane
-BloodMoonSpawnMobRate: 65
+BloodMoonSpawnMobRate: 72
 #Decides if a zombie boss will spawn each BloodMoon
 EnableZombieBoss: true
 #When in a permanent BloodMoon, how long (in ticks) before respawning zombie boss after death?
 #20 ticks equals a second, 24000 ticks equals a minecraft day
-ZombieBossRespawn: 24000
-ZombieBossDamage: 24
-ZombieBossExpMultiplier: 100
-ZombieBossHealth: 12000
-ZombieBossItemMultiplier: 24
+ZombieBossRespawn: 12000
+ZombieBossDamage: 8
+ZombieBossExpMultiplier: 10
+ZombieBossHealth: 1500
+ZombieBossItemMultiplier: 5
 #List of items that can drop, using the
 #"[ITEM_CODE]:[STACK AMOUNT]:[WEIGHT]:$name [META NAME]:$desc [META DESCRIPTION]:$enchant [ENCHANTMENT LIST]" format
 #$name, $desc and $enchant are of course optional
@@ -90,7 +90,10 @@ DropItemList:
 #POISON,[range],[cooldown],[duration],[amplifier]
 #WITHER,[range],[cooldown],[duration],[amplifier]
 ZombieBossPowerSet:
-  - "WITHER,12,20,5,1"
+  - "WITHER,12,10,8,2" #Requires Testing Sep 19th 2022
+  - "POISON,4,15,2" #Requires Testing Sep 19th 2022
+  - "LIGHTNING,12,15" #Requires Testing Sep 19th 2022
+  - "FIRE,8,8,5" #Requires Testing Sep 19th 2022
 #Mob effects on hit. Format (with no spaces in between):
 #[Effect],[Duration in seconds],[Effect amplifier. Use 1 if you're unsure]
 #For a complete list of effects, refert to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
@@ -135,9 +138,9 @@ CommandsOnEnd:
 #Are hordes even enabled in this world?
 HordesEnabled: true
 #The baseline spawn rate of hordes in ticks (1/5th of a second)
-BaselineHordeSpawnrate: 165
+BaselineHordeSpawnrate: 185
 #The variation of hordes spawn time in ticks
-HordeSpawnrateVariation: 100
+HordeSpawnrateVariation: 85
 #Decides which mobs are allowed in hordes
 HordeMobWhitelist:
  - "ZOMBIE"
@@ -148,8 +151,8 @@ HordeMobWhitelist:
  - "STRAY"
  - "WITCH"
 #The distance from players in block at which hordes will spawn
-HordeSpawnDistance: 10
+HordeSpawnDistance: 12
 #The minimum number of mobs in a horde
-HordeMinPopulation: 25
+HordeMinPopulation: 20
 #The maximum number of mobs in a horde
-HordeMaxPopulation: 55
+HordeMaxPopulation: 65
