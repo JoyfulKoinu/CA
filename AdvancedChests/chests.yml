@@ -1,12 +1,12 @@
-chests:
+Beginner:
   # You can copy/paste these templates to create new chests
   example:
     inventory:
-      name: '&6Legendary Chest &8Page - %i%'
+      name: '&aBeginner Chest &aPage - %i%'
       # The size must be multiple of 9
-      size: 270
+      size: 108
     item:
-      name: '&6Lengendary Chest'
+      name: '&a Beginner Chest'
       lore:
       - '&7This chest contains a total'
       - '&7of &6x%size% &7slots'
@@ -17,14 +17,14 @@ chests:
       - ''
       - ''
     # Put it as -1 if you don't want to display the chest in the shop
-    shop-price: 2500
+    shop-price: 5000
     allow-hoppers-use: true
     previous-page-slot: 4
     next-page-slot: 6
     upgrades:
       enable: true
       next_upgrade: example2
-      price: 1000
+      price: 25000
       slot: 5
     sorters:
       enable: false
@@ -66,78 +66,6 @@ chests:
           data: 0
         B:
           material: IRON_INGOT
-          data: 0
-      recipe:
-      - AAA
-      - ABA
-      - AAA
-    chest-type: NORMAL
-  example2:
-    inventory:
-      name: '&4&lExtreme Chest &8Page - %i%'
-      # The size must be multiple of 9
-      size: 315
-    item:
-      name: '&4&lExtreme Chest'
-      lore:
-      - '&7This chest contains a total'
-      - '&7of &6x%size% &7slots'
-    hologram:
-      # This functionality requires at least Holographic Displays
-      enable: true
-      title:
-      - '&8&k..&4&lExtreme Chest&8&k..'
-      - '&6%slots_used%&7/&6%size% &7slots'
-    # Put it as -1 if you don't want to display the chest in the shop
-    shop-price: -1
-    allow-hoppers-use: true
-    previous-page-slot: 4
-    next-page-slot: 6
-    upgrades:
-      enable: false
-      next_upgrade: ''
-      price: 0
-      slot: 5
-    sorters:
-      enable: true
-      price: 0
-      slot: 9
-    sells:
-      # This functionality requires at least Essentials
-      enable: true
-      # Refers to the multiplier of the sells
-      multiplier: 2
-      slot: 1
-    smelter:
-      enable: true
-      price: 1000
-      slot: 8
-    compressor:
-      enable: true
-      price: 1000
-      slot: 7
-    autosells:
-      # This functionality requires at least Essentials
-      enable: true
-      # Refers to the frequency in ticks for the automatic selling
-      # 1s = 20ticks
-      frequency: 2400
-      # Refers to the multiplier of the automatic sells
-      multiplier: 2
-      # Refers to the percentage that will be discounted from
-      # the total sell value
-      tax: 0
-      slot: 2
-    deposit:
-      enable: true
-    crafting:
-      enable: false
-      items:
-        A:
-          material: OAK_PLANKS
-          data: 0
-        B:
-          material: GOLD_INGOT
           data: 0
       recipe:
       - AAA
