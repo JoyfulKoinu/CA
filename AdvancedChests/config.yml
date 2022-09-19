@@ -62,7 +62,7 @@ options:
     # Enabling this option the players will receive the chest item directly into their inventories when breaking the block
     onbreak_dropchest_to_inventory: true
     # Enabling this option the players will receive the money collected by the chest when breaking the block
-    onbreak_claim_chest_money: false
+    onbreak_claim_chest_money: true
     # Show a confirmation before breaking a chest
     # Enable this option to reduce the lag caused by the dropped items
     onbreak_confirmation: true
