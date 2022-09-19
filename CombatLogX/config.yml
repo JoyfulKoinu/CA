@@ -76,7 +76,7 @@ timer:
   # This is the default amount of time that players will be tagged (in seconds).
   # This value will be used if the timer type is GLOBAL or if a permission cannot be detected.
   # Default: 10
-  default-timer: 10
+  default-timer: 8
 
 # Which permission will prevent players from being tagged into combat?
 # You must add this permission manually.
@@ -106,4 +106,4 @@ remove-no-damage-cooldown: true
 # How long must players wait between requests?
 # This cooldown is for the `/clx request' command.
 # Default: 30 (seconds)
-forgive-request-cooldown: 30
+forgive-request-cooldown: 15
