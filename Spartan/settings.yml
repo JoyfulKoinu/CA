@@ -27,7 +27,7 @@ Chat:
   prevent_same_message: false
   blocked_words: blockedWord1, blockedWord2
   blocked_commands: blockedCommand1, blockedCommand2
-  staff_chat_character: '@'
+  staff_chat_character: '!&'
 Protections:
   reconnect_cooldown: 1
   use_tps_protection: true
@@ -45,7 +45,7 @@ Important:
   modify_server_configuration: false
   refresh_inventory_menu: true
   show_ecosystem: true
-  bedrock_player_prefix: '*'
+  bedrock_player_prefix: '.'
   cloud_feature: true
   server_name: specify server name
 Detections:
