@@ -17,15 +17,15 @@ async-chunks:
   threads: -1
 chunk-loading:
   autoconfig-send-distance: true
-  enable-frustum-priority: false
+  enable-frustum-priority: true
   global-max-chunk-load-rate: -1.0
   global-max-chunk-send-rate: -1.0
   global-max-concurrent-loads: 500.0
-  max-concurrent-sends: 2
+  max-concurrent-sends: 5
   min-load-radius: 2
   player-max-chunk-load-rate: -1.0
-  player-max-concurrent-loads: 20.0
-  target-player-chunk-send-rate: 100.0
+  player-max-concurrent-loads: 35.0
+  target-player-chunk-send-rate: 125.0
 collisions:
   enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
@@ -50,7 +50,7 @@ item-validation:
   resolve-selectors-in-books: false
 logging:
   deobfuscate-stacktraces: true
-  log-player-ip-addresses: true
+  log-player-ip-addresses: false
   use-rgb-for-named-text-colors: true
 messages:
   kick:
@@ -65,7 +65,7 @@ misc:
   fix-entity-position-desync: true
   lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 3
+  max-joins-per-tick: 5
   region-file-cache-size: 256
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -73,8 +73,8 @@ misc:
 packet-limiter:
   all-packets:
     action: KICK
-    interval: 7.0
-    max-packet-rate: 500.0
+    interval: 8.3
+    max-packet-rate: 650.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
     ServerboundPlaceRecipePacket:
