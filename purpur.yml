@@ -568,7 +568,7 @@ world-settings:
         takes-damage-from-water: true
         aggressive-towards-endermites: true
         aggressive-towards-endermites-only-spawned-by-player-thrown-ender-pearls: false
-        ignore-players-wearing-dragon-head: false
+        ignore-players-wearing-dragon-head: true
         disable-player-stare-aggression: false
         ignore-projectiles: false
         always-drop-exp: false
@@ -1064,7 +1064,7 @@ world-settings:
         display-trade-item: true
         spawn-iron-golem:
           radius: 0
-          limit: 0
+          limit: 1
       vex:
         ridable: false
         ridable-in-water: false
