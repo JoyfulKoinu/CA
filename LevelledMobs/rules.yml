@@ -212,8 +212,8 @@ presets:
   average_challenge:
     name: 'Average-Challenge Multipliers'
     apply-settings:
-      minLevel: 1
-      maxLevel: 25
+      minLevel: 5
+      maxLevel: 15
       multipliers:
         max-health: 5.0
         movement-speed: 0.15
@@ -241,7 +241,7 @@ presets:
   advanced_challenge:
     name: 'Advanced-Challenge Multipliers'
     apply-settings:
-      minLevel: 1
+      minLevel: 25
       maxLevel: 50
       multipliers:
         max-health: 8.0
@@ -273,7 +273,7 @@ presets:
   extreme_challenge:
     name: 'Extreme-Challenge Multipliers'
     apply-settings:
-      minLevel: 1
+      minLevel: 50
       maxLevel: 100
       multipliers:
         max-health: 15.0
