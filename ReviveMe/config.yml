@@ -78,7 +78,7 @@ player_config:
   pickup_interact: click
   
   # As what interaction do you want to perform the steal action?
-  steal_interact: crounch+click
+  steal_interact: crouch+click
   
   # If you have a problem when a player dismounts you can activate this option to fix it!
   dismount_bug: false
