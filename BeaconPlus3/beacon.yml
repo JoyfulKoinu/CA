@@ -73,7 +73,7 @@ Power Sources:
 Vanilla Beacon Item:
   # If this set to true
   # any vanilla beacon will turn into beaconplus beacon
-  Disable Vanilla: false
+  Disable Vanilla: true
   # Beacon Item auto Pick up
   # If Auto Pick Up is set to false,
   # the beacon item will be dropped instead
