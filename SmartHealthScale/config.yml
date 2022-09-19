@@ -36,7 +36,7 @@ scale-to: 40
 permission-denial-message: "&cHey, you don't have permission to do that!"
 # Prints to the player(non-admins) if he/she tries to execute /shsreload OR /smarthealthscale
 
-send-denial-message: true
+send-denial-message: false
 # Whether to send the above message
 
 permission: 'rank.admin'
