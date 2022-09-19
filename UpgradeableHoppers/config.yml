@@ -35,7 +35,7 @@ database:
 
 command:
   # Should players need to confirm their purchase at /Hopper get?
-  get-confirm: false
+  get-confirm: true
   # Set aliases
   # for /UpgradeableHoppers command
   # NOTE: This settings
@@ -55,7 +55,7 @@ hopper:
   # Allow only the owner
   # of the hopper item
   # to place it down.
-  only-owner: true
+  only-owner: false
   # Item settings /Hopper get
   item:
     # Allow buying more hoppers even if the player already reached the maximum amount of PLACED hoppers?
@@ -93,13 +93,13 @@ hopper:
 # Command specific teleportation options can be find in their sections.
 teleport:
   # General teleportation cost. Some features might have specific options, which override this.
-  costs: 0
+  costs: 250
   # Set the cost of any teleportation to 0 for players that joined the server for the first time.
   # You can define a time span here. Example: 1d = players that joined the server 23 hours ago, won't pay for any teleportation.
   first-join_time: 0h
   # Wait-time
   # Timeunit: seconds
-  wait: 3
+  wait: 5
 
 
 
@@ -127,9 +127,9 @@ sounds:
 protection:
   # Should upgradeable hoppers be protected?
   # NOTE: If disabled, everyone can destroy, upgrade, open the hopper.
-  enabled_3: true
+  enabled_3: false
   # Should TnT explosions be able to destroy the hoppers? Their items will drop.
-  anti-explosive: true
+  anti-explosive: false
   # Supports: Lands (https://www.spigotmc.org/resources/53313), SuperiorSkyblock2, BentoBox
   # Allow players, which are trusted in the region where the hopper is located in, to edit the hopper?
   allow-region-members: false
