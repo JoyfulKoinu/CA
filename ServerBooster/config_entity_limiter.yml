@@ -24,9 +24,9 @@ worlds:
 
 defaults:
   age: 185 # Enable age limiting and remove the mob after a number of ticks. (e.g. 185 for 15 minutes). Set -1 to ignore the age.
-  radius_max: 185 # The maximum number of a mob type to be allowed to spawn in a "view distance" defined by radius. Set -1 to ignore radius.
-  chunk_max: 185 # The maximum number of a mob type to be allowed to spawn in a single chunk. Set -1 to ignore max entities of this type in chunk.
-  cull: 10 # If set to a value other than -1, the number of mobs to not be removed on chunk unload. Set -1 to avoid deleting excess entities on chunk unload.
+  radius_max: 150 # The maximum number of a mob type to be allowed to spawn in a "view distance" defined by radius. Set -1 to ignore radius.
+  chunk_max: 100 # The maximum number of a mob type to be allowed to spawn in a single chunk. Set -1 to ignore max entities of this type in chunk.
+  cull: 5 # If set to a value other than -1, the number of mobs to not be removed on chunk unload. Set -1 to avoid deleting excess entities on chunk unload.
 limits:
   wither_skeleton:
     radius_max: 185
