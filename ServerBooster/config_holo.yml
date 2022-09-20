@@ -8,10 +8,10 @@ worlds:
 merge:
   force_merge:
     enabled: true
-    radius: 7
-    more_precise_item_similarity_check__ENABLE_ONLY_IF_ANY_DUPE_PROBLEM: false
+    radius: 8
+    more_precise_item_similarity_check__ENABLE_ONLY_IF_ANY_DUPE_PROBLEM: true
     max_stack:
-      custom_amount: 512
+      custom_amount: 3200
   merge_only_player_drops: false
   hologram:
     enabled: true
