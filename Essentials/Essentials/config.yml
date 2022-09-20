@@ -91,14 +91,14 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 20
+teleport-cooldown: 30
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
-teleport-delay: 10
+teleport-delay: 15
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
-teleport-invulnerability: 0
+teleport-invulnerability: 3
 
 # Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
 teleport-to-center: true
@@ -107,7 +107,7 @@ teleport-to-center: true
 heal-cooldown: 60
 
 # Do you want to remove potion effects when healing a player?
-remove-effects-on-heal: true
+remove-effects-on-heal: false
 
 # Near Radius
 # The default radius with /near
@@ -136,10 +136,10 @@ item-spawn-blacklist:
 permission-based-item-spawn: false
 
 # Mob limit on the /spawnmob command per execution.
-spawnmob-limit: 500
+spawnmob-limit: 150
 
 # Shall we notify users when using /lightning?
-warn-on-smite: true
+warn-on-smite: false
 
 # Shall we drop items instead of adding to inventory if the target inventory is full?
 drop-items-if-full: false
@@ -408,7 +408,7 @@ unprotected-sign-names:
 # Backups can also be triggered manually with /backup.
 backup:
   # Interval in minutes.
-  interval: 30
+  interval: 300
   # If true, the backup task will run even if there are no players online.
   always-run: false
   # Unless you add a valid backup command or script here, this feature will be useless.
@@ -447,7 +447,7 @@ debug: false
 #locale: en
 
 # Turn off god mode when people leave the server.
-remove-god-on-disconnect: false
+remove-god-on-disconnect: true
 
 # Auto-AFK
 # After this timeout in seconds, the user will be set as AFK.
@@ -465,7 +465,7 @@ auto-afk-kick: -1
 # Other players or monsters can't push the player out of AFK mode then.
 # This will also enable temporary god mode for the AFK player.
 # The player has to use the command /afk to leave the AFK mode.
-freeze-afk-players: false
+freeze-afk-players: true
 
 # When the player is AFK, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
@@ -638,7 +638,7 @@ last-message-reply-recipient-timeout: 180
 last-message-reply-vanished: false
 
 # Toggles whether or not left clicking mobs with a milk bucket turns them into a baby.
-milk-bucket-easter-egg: true
+milk-bucket-easter-egg: false
 
 # Toggles whether or not the fly status message should be sent to players on join
 send-fly-enable-on-join: true
@@ -700,12 +700,12 @@ jail-online-time: false
 
 # Set the timeout, in seconds for players to accept a tpa before the request is cancelled.
 # Set to 0 for no timeout.
-tpa-accept-cancellation: 120
+tpa-accept-cancellation: 60
 
 # The maximum number of simultaneous tpa requests that can be pending for any player.
 # Once past this threshold, old requests will instantly time out.
 # Defaults to 5.
-tpa-max-requests: 5
+tpa-max-requests: 3
 
 # Allow players to set hats by clicking on their helmet slot.
 allow-direct-hat: true
@@ -718,7 +718,7 @@ allow-world-in-broadcastworld: true
 # Consider water blocks as "safe," therefore allowing players to teleport
 # using commands such as /home or /spawn to a location that is occupied
 # by water blocks
-is-water-safe: false
+is-water-safe: true
 
 # Should the usermap try to sanitise usernames before saving them?
 # You should only change this to false if you use Minecraft China.
@@ -791,7 +791,7 @@ confirm-home-overwrite: false
 # You can control the values of items that are sold to the server by using the /setworth command.
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 125000
+starting-balance: 1500
 
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs, check the wiki for more information.
@@ -812,21 +812,21 @@ currency-symbol-suffix: false
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
-max-money: 25000000000
+max-money: 2500000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
 min-money: 0
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
-economy-log-enabled: false
+economy-log-enabled: true
 
 # Enable this to also log all transactions from other plugins through Vault.
 # This can cause the economy log to fill up quickly so should only be enabled for testing purposes!
 economy-log-update-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 1
+minimum-pay-amount: 5
 
 # Enable this to block users who try to /pay another user which ignore them.
 pay-excludes-ignore-list: false
@@ -1034,7 +1034,7 @@ protect:
       bat: false
       witch: false
       horse: false
-      phantom: false
+      phantom: true
 
   # Maximum height the creeper should explode. -1 allows them to explode everywhere.
   # Set prevent.creeper-explosion to true, if you want to disable creeper explosions.
@@ -1111,10 +1111,10 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: LAVA,TNT,LAVA_BUCKET
+    placement:
 
     # Which items should people be prevented from using?
-    usage: LAVA_BUCKET
+    usage:
 
     # Which blocks should people be prevented from breaking?
     break:
