@@ -1,0 +1,3 @@
+[2022-09-20 18:13:11] - oJamx bought 64 x Cooked Salmon(Food.9) for $1,920 with the buy screen.
+[2022-09-20 18:18:27] - JoyfulNeko bought 17 x Cooked Salmon(Food.9) for $510 with the buy screen.
+[2022-09-20 18:20:45] - Misumikyu bought 17 x Cobblestone(Blocks.96) for $0 with the buy screen.
