@@ -12,7 +12,7 @@
 player_downed_event:
   enabled: true
   actions:
-    - '[broadcast] options:{receive_permission=reviveme.doctor,to_nearby_players=100}player <victim> is downed! help her!'
+    - '[broadcast] options:{receive_permission=reviveme.doctor,to_nearby_players=100}player <victim> is downed! help them!'
 
 player_reliving_event:
   enabled: true

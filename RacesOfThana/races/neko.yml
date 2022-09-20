@@ -17,9 +17,9 @@ potions:
   enabled: true
   potion-bubbles: false
   potioneffects:
+  - NIGHT_VISION:1
   day-effects:
   night-effects:
-  - NIGHT_VISION:1
 damage:
   enabled: false
   water-damage: false
