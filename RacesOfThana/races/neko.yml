@@ -17,13 +17,12 @@ potions:
   enabled: true
   potion-bubbles: false
   potioneffects:
-  - SLOW_FALLING:1
   day-effects:
   night-effects:
   - NIGHT_VISION:1
 damage:
-  enabled: true
-  water-damage: true
+  enabled: false
+  water-damage: false
   out-of-water-damage: false
   lava-damage: false
   affect-fire: false
@@ -39,9 +38,7 @@ gui:
   - '&dA cute neko race!'
   - '&f---------------------------'
   - '&a- Speed boost'
-  - '&a- Slow Fall'
   - '&a- Can see in the Dark'
-  - '&c- Hates water'
   - '&c- Cute Hurt/Death sounds'
   - '&f---------------------------'
   - '&d&oQuote by Misu "Meow"'
