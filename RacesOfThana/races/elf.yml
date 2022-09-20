@@ -38,7 +38,6 @@ gui:
   - '&a- Health Boost'
   - '&a- Exta Knockback'
   - '&a- Villagrs love you'
-  - '&c- Lower Armor'
   - '&c- Cute Hurt/Death noises'
   - '&f--------------------------------'
   - '&d&oQuote by Mary "Awoo"'
@@ -55,5 +54,4 @@ race-location:
   teleport-on-death: false
   temp-op: false
 attributes:
-  - GENERIC_ARMOR: -2
   - GENERIC_MAX_HEALTH: 30
