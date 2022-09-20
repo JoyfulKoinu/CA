@@ -55,4 +55,4 @@ race-location:
   temp-op: false
 attributes:
   - GENERIC_ARMOR: 6
-  - GENERIC_MOVEMENT_SPEED: 0.086
+  - GENERIC_MOVEMENT_SPEED: 0.087
