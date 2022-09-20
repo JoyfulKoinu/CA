@@ -1,12 +1,12 @@
 tps-commands:
-  enabled: false
+  enabled: true
   _INFO:
   - 'You can use these placeholders in commands: {tps}'
   - You can create as many as groups you want. Also commands are unlimited.
   commands:
     group_1:
-      tps: 16
-      delay_ticks: 36000
+      tps: 15
+      delay_ticks: 3600
       list:
         command_1:
           command: 'broadcast Server is lagging ({tps} tps). Please be patient. '
