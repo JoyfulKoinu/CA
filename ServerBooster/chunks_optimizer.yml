@@ -1,17 +1,17 @@
 slow-down-chunk-packets:
   when-tps-below:
     enabled: true
-    value: 15
+    value: 18
   when-high-player-ping:
     enabled: true
-    value: 350
+    value: 300
   worlds:
   - world
   - world_nether
   - world_the_end
 block-physics-lag-detector:
   enabled: true
-  low-tps: 17.5
+  low-tps: 19.0
   lag:
     warning-threshold: 950000
     notify-op: true
@@ -22,7 +22,7 @@ block-physics-lag-detector:
   - world_the_end
 unload-chunks:
   enabled: true
-  interval-ticks: 800
+  interval-ticks: 30
   log:
     unload: false
   worlds:
