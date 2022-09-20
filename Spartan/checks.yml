@@ -2,16 +2,16 @@ MorePackets:
   check_instant_movements: true
   name: MorePackets
   enabled: true
-  silent: true
-  punish: true
+  silent: false
+  punish: false
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 Velocity:
   check_zero_distance: true
   name: Velocity
   enabled: true
-  silent: true
-  punish: true
+  silent: True
+  punish: True
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 FastPlace:
@@ -19,7 +19,7 @@ FastPlace:
   name: FastPlace
   enabled: true
   silent: true
-  punish: true
+  punish: false
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 Speed:
@@ -28,9 +28,9 @@ Speed:
   check_omnidirectional_sprinting: true
   check_water_speed: true
   name: Speed
-  enabled: true
-  silent: true
-  punish: true
+  enabled: false
+  silent: false
+  punish: false
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 BlockReach:
@@ -42,9 +42,9 @@ BlockReach:
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 ImpossibleInventory:
-  check_sneaking: false
-  check_sprinting: false
-  check_walking: false
+  check_sneaking: true
+  check_sprinting: true
+  check_walking: true
   check_sleeping: true
   check_dead: true
   check_sprint_jumping: true
@@ -164,8 +164,8 @@ Criticals:
   check_damage: true
   name: Criticals
   enabled: true
-  silent: true
-  punish: true
+  silent: false
+  punish: false
   disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
   silent_worlds: exampleSilentWorld1, exampleSilentWorld2
 FastClicks:
