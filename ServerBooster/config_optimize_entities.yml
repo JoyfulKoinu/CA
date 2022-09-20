@@ -3,18 +3,18 @@ override_spigot_bukkit_configs: true
 mob-spawn-range: 3
 entity-activation-range:
   tick-inactive-villagers: false
-  animals: 16
-  monsters: 16
-  raiders: 25
-  misc: 2
+  animals: 10
+  monsters: 10
+  raiders: 10
+  misc: 4
 ticks-per:
   animal-spawns: 70
   monster-spawns: 6
 spawn-limits:
-  monsters: 12
-  animals: 6
-  water-animals: 6
-  ambient: 8
+  monsters: 16
+  animals: 8
+  water-animals: 8
+  ambient: 10
 
 #########
 
@@ -52,14 +52,14 @@ trigger-options:
 
 #frecuency in ticks to check untracked entities
 #It will check for players traking entities and will track it again (this is to prevent invisible entities)
-check-untracked-entities-frequency: 35
+check-untracked-entities-frequency: 30
 
 #Distance in blocks to check for players near untracked entities
 tracking-range: 35
 
 #Entities with these properties will be ignored from optimization. You should leave this as default
 ignore:
-  custom-named: false
+  custom-named: true
   invulnerable: false
   drops: true
   itemframes: true
