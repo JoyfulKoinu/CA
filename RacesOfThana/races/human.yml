@@ -17,10 +17,9 @@ potions:
   enabled: true
   potion-bubbles: false
   potioneffects:
-  - REGENERATION:1
   - INCREASE_DAMAGE:1
   day-effects:
-  - NIGHT_VISION:1
+  - REGENERATION:1
 damage:
   enabled: false
   water-damage: false
@@ -40,6 +39,7 @@ gui:
   - '&f-----------------------------'
   - '&a- Knockback Resistance'
   - '&a- Increased Follow Range for Pets'
+  - '&a- Passive Daytime Regeneration'
   - '&c- Increased Zombie Reinforcements'
   - '&f-----------------------------'
   - '&d&oQuote by Joyfulneko "I will blow you"'
