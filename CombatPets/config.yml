@@ -10,9 +10,9 @@ Database:
   Auto_Save_Interval: 15
   Instant_Save: true
   MySQL:
-    Username: user123
-    Password: pass123
-    Host: localhost:3306
+    Username: Nevous
+    Password: ThisSQLisnotActive
+    Host: localhost:4000
     Database: server
   Purge:
     Enabled: false
