@@ -113,6 +113,17 @@ commands_config:
   - tpaccept
   - tpyes
   - tpa
+  - ec
+  - ecall
+  - ehome
+  - enderchest
+  - essentials:ecall 
+  - essentials:ehome
+  - essentials:call
+  - call
+  - essentials:tpa
+  - essentials:warp
+  - warp
 
 # Here you can choose what types of damage ReviveMe should ignore in case the mode is blacklist or what types of damage should be for it to work in case of whitelist
 # damages list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
