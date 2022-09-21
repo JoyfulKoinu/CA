@@ -99,26 +99,28 @@ ZombieBossPowerSet:
 #For a complete list of effects, refert to https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
 #Additional effects include: 'LIGHTNING'
 ZOMBIEEffects:
-  - "WITHER,8,1"
+  - "WITHER,15,2"
 HUSKEffects:
-  - "WITHER,8,1"
+  - "WITHER,15,2"
 ZOMBIE_VILLAGEREffects:
-  - "WITHER,8,1"
+  - "WITHER,15,2"
 SKELETONEffects:
-  - "WITHER,8,1"
+  - "WITHER,15,2"
 CREEPEREffects:
   - "LIGHTNING"
 SPIDEREffects:
   - "POISON,4,1"
-  - "WITHER,8,1"
+  - "WITHER,15,2"
 ZOMBIEBOSSEffects:
   - "WITHER,8,2"
-  - "DARKNESS,5,1"
+  - "WITHER,15,2"
 STRAYEffects:
   - "CONFUSION,3,1"
 CAVE_SPIDEREffects:
   - "POISON,10,1"
-
+  VEXEffects:
+  - "POISON,10,1"
+  - "WITHER,15,2"
 
 #These commands will be ran right as a BloodMoon starts
 #You must append a ;s, ;f or ;p at the end of the command:
@@ -150,6 +152,7 @@ HordeMobWhitelist:
  - "WITHER_SKELETON"
  - "STRAY"
  - "WITCH"
+ - "VEX"
 #The distance from players in block at which hordes will spawn
 HordeSpawnDistance: 12
 #The minimum number of mobs in a horde
