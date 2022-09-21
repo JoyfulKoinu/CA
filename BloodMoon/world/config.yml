@@ -10,17 +10,17 @@ IsBlacklisted: false
 #Obviously the interval option is ignored when this is on
 PermanentBloodMoon: false
 #Interval in days between BloodMoons
-BloodMoonInterval: 31
+BloodMoonInterval: 40
 #Do items despawn upon death?
 ItemDespawnUponDeath: true
 #Does experience despawn upon death?
 ExperienceDespawnsUponDeath: true
 #Maximum item amount to drop per mob death
-ItemDropsMaximum: 3
+ItemDropsMaximum: 5
 #Minimum item amount to drop per mob death
 ItemDropsMinimum: 1
 #Mob experience drop multiplicator. Whole number only
-ExperienceDropMult: 5
+ExperienceDropMult: 8
 #Mob damage multiplier. Whole number only
 MobDamageMultiplicator: 3
 #Mob health multiplier. Whole number only
@@ -28,7 +28,7 @@ MobHealthMultiplicator: 3
 #Should there be a lightning effect on player death?
 LightningEffectOnPlayerDeath: true
 #Adds a lightning effect when a mob dies
-LightningEffectOnMobDeath: false
+LightningEffectOnMobDeath: true
 #Should there be a jingle when a BloodMoon ends?
 PlaySoundUponBloodMoonEnd: true
 #Should there be periodic creepy sounds during a BloodMoon?
@@ -55,11 +55,11 @@ BloodMoonSpawnMobRate: 72
 EnableZombieBoss: true
 #When in a permanent BloodMoon, how long (in ticks) before respawning zombie boss after death?
 #20 ticks equals a second, 24000 ticks equals a minecraft day
-ZombieBossRespawn: 12000
-ZombieBossDamage: 8
-ZombieBossExpMultiplier: 10
-ZombieBossHealth: 1500
-ZombieBossItemMultiplier: 5
+ZombieBossRespawn: 16500
+ZombieBossDamage: 10
+ZombieBossExpMultiplier: 8
+ZombieBossHealth: 1250
+ZombieBossItemMultiplier: 4
 #List of items that can drop, using the
 #"[ITEM_CODE]:[STACK AMOUNT]:[WEIGHT]:$name [META NAME]:$desc [META DESCRIPTION]:$enchant [ENCHANTMENT LIST]" format
 #$name, $desc and $enchant are of course optional
