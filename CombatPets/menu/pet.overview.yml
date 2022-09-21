@@ -1,0 +1,130 @@
+Title: '&lPet Menu'
+Size: 9
+
+Content:
+  pet_info:
+    Display:
+      default:
+        Item:
+          Material: 'MAP'
+          Name: '&6&lGeneral Pet Info'
+          Lore:
+            - '&7'
+            - '&e&lSTATISTIC'
+            - '&6▸ &7Level: &6%pet_data_level%'
+            - '&6▸ &7Exp: &6%pet_data_exp%&7/&6%pet_data_exp_max%'
+            - '&6▸ &7Saturation: &6%pet_data_saturation%&7/&6%pet_template_saturation_max%'
+            - '&7'
+            - '&a&lATTRIBUTES'
+            - '&2▸ &7Damage: &2%pet_attribute_generic_attack_damage%'
+            - '&2▸ &7Health: &2%pet_attribute_generic_max_health%'
+            - '&2▸ &7Defense: &2%pet_attribute_generic_armor%'
+            - '&2▸ &7Speed: &2%pet_attribute_generic_movement_speed%'
+            - '&7'
+            - '&c&lASPECTS'
+            - '&4▸ &7Strength: &4%pet_data_aspect_strength%'
+            - '&4▸ &7Vitality: &4%pet_data_aspect_vitality%'
+            - '&4▸ &7Defense: &4%pet_data_aspect_defense%'
+            - '&4▸ &7Dexterity: &4%pet_data_aspect_dexterity%'
+    Type: NONE
+    Slots: 0
+
+  panel_1:
+    Display:
+      default:
+        Item:
+          Material: 'BLACK_STAINED_GLASS_PANE'
+          Mame: ''
+    Slots: 7
+
+Pet_Buttons:
+  pet_ride:
+    Display:
+      default:
+        Item:
+          Material: 'SADDLE'
+          Name: '&6&lRide pet'
+          Lore:
+            - '&7Ride your pet!'
+    Type: PET_RIDE
+    Slots: 3
+
+  pet_combat_mode:
+    Display:
+      default:
+        Item:
+          Material: 'COMPASS'
+          Name: '&b&lCombat Mode'
+          Lore:
+            - '&7Mode: &b%pet_data_combat_mode%'
+            - '&7'
+            - '&b&lPassive: &7Won''t attack anyone'
+            - '&7no matter what.'
+            - '&7'
+            - '&b&lProtective: &7Attacks entities, that'
+            - '&7attacked owner.'
+            - '&7'
+            - '&b&lSupportive: &7Attacks entities, that'
+            - '&7were attacked by owner.'
+    Type: PET_STATE
+    Slots: 2
+
+  pet_rename:
+    Display:
+      default:
+        Item:
+          Material: 'NAME_TAG'
+          Name: '&eRename'
+          Lore:
+            - '&7Current name: &f%pet_data_name%'
+            - '&7Give a new name to your pet.'
+    Type: PET_RENAME
+    Slots: 1
+
+  pet_despawn:
+    Display:
+      default:
+        Item:
+          Material: 'DRAGON_EGG'
+          Name: '&d&lDespawn Pet'
+          Lore:
+            - '&7Return pet to your collection.'
+    Type: PET_RETURN
+    Slots: 8
+
+  pet_equipment:
+    Display:
+      default:
+        Item:
+          Material: 'ARMOR_STAND'
+          Name: '&6&lPet Equipment'
+          Lore:
+            - '&7Equip your pet with'
+            - '&7weapon and armor.'
+    Type: PET_EQUIPMENT
+    Slots: 5
+
+  pet_inventory:
+    Display:
+      default:
+        Item:
+          Material: 'CHEST'
+          Name: '&6&lInventory'
+          Lore:
+            - '&7Open pet inventory.'
+    Type: PET_INVENTORY
+    Slots: 6
+
+  pet_aspects:
+    Display:
+      default:
+        Item:
+          Material: 'BOOK'
+          Name: '&c&lAspects'
+          Lore:
+            - '&7Increase pet attributes by'
+            - '&7spending aspect points!'
+            - '&7'
+            - '&7Aspect Points: &c%pet_data_aspect_points%'
+    Type: PET_ASPECTS
+    Slots: 4

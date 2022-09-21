@@ -1,0 +1,35 @@
+Title: '&lPet Revive'
+Size: 9
+
+Content:
+  pet_icon:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&6&l%pet_data_name%'
+          Lore:
+            - '&7You are about to force revive this pet.'
+            - '&7'
+            - '&7Auto-Revive In: &a%pet_data_revive_in%'
+            - '&7Revive cost: &c$%pet_template_death_revive_cost%'
+    Slots: 4
+    Type: NONE
+
+  decline:
+    Display:
+      default:
+        Item:
+          Material: 'RED_STAINED_GLASS_PANE'
+          Name: '&c&l[Decline]'
+    Slots: 0,1,2,3
+    Type: CONFIRMATION_DECLINE
+
+  accept:
+    Display:
+      default:
+        Item:
+          Material: 'LIME_STAINED_GLASS_PANE'
+          Name: '&a&l[Accept]'
+    Slots: 5,6,7,8
+    Type: CONFIRMATION_ACCEPT

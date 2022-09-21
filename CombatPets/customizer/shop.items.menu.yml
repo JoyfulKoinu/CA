@@ -1,0 +1,104 @@
+Title: '&lPet Customizations Shop'
+Size: 27
+Price:
+  AGE:
+    BABY: 100.0
+    ADULT: 100.0
+  CAT_TYPE:
+    TABBY: 100.0
+    BLACK: 100.0
+    RED: 100.0
+    SIAMESE: 100.0
+    BRITISH_SHORTHAIR: 100.0
+    CALICO: 100.0
+    PERSIAN: 100.0
+    RAGDOLL: 100.0
+    WHITE: 100.0
+    JELLIE: 100.0
+    ALL_BLACK: 100.0
+  MUSHROOM_VARIANT:
+    RED: 100.0
+    BROWN: 100.0
+  SHEEP_COLOR:
+    WHITE: 100.0
+    ORANGE: 100.0
+    MAGENTA: 100.0
+    LIGHT_BLUE: 100.0
+    YELLOW: 100.0
+    LIME: 100.0
+    PINK: 100.0
+    GRAY: 100.0
+    LIGHT_GRAY: 100.0
+    CYAN: 100.0
+    PURPLE: 100.0
+    BLUE: 100.0
+    BROWN: 100.0
+    GREEN: 100.0
+    RED: 100.0
+    BLACK: 100.0
+  HORSE_COLOR:
+    WHITE: 100.0
+    CREAMY: 100.0
+    CHESTNUT: 100.0
+    BROWN: 100.0
+    BLACK: 100.0
+    GRAY: 100.0
+    DARK_BROWN: 100.0
+  HORSE_STYLE:
+    NONE: 100.0
+    WHITE: 100.0
+    WHITEFIELD: 100.0
+    WHITE_DOTS: 100.0
+    BLACK_DOTS: 100.0
+  PARROT_VARIANT:
+    RED: 100.0
+    BLUE: 100.0
+    GREEN: 100.0
+    CYAN: 100.0
+    GRAY: 100.0
+  SLIME_SIZE:
+    VERY_SMALL: 100.0
+    SMALL: 100.0
+    NORMAL: 100.0
+    MEDIUM: 100.0
+    BIG: 100.0
+    VERY_BIG: 100.0
+    LARGE: 100.0
+    GIANT: 100.0
+Item:
+  Format:
+    Material: NAME_TAG
+    Name: '&e&l%customization_type% &7- &b%customization_name%'
+    Lore:
+    - '&7Price: &e$%customization_price%'
+    - '&7'
+    - '&eLeft-Click to purchase customization.'
+  Slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+Content:
+  return:
+    Display:
+      default:
+        Item:
+          Material: BARRIER
+          Name: '&c&lReturn'
+    Slots: 22
+    Type: RETURN
+  page_next:
+    Display:
+      default:
+        Item:
+          Material: PLAYER_HEAD
+          Name: '&e&lNext Page'
+          Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19
+    Slots: 26
+    Type: PAGE_NEXT
+  
+  page_previous:
+    Display:
+      default:
+        Item:
+          Material: PLAYER_HEAD
+          Name: '&e&lPrevious Page'
+          Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+    Slots: 18
+    Type: PAGE_PREVIOUS

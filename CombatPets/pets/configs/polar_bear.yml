@@ -1,0 +1,14 @@
+Template: CombatOverlord
+Settings:
+  Default_Name: Polar Bear
+  Entity_Type: POLAR_BEAR
+  Egg_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmZTkyNjkyMmZiYjQwNmYzNDNiMzRhMTBiYjk4OTkyY2VlNDQxMDEzN2QzZjg4MDk5NDI3YjIyZGUzYWI5MCJ9fX0=
+Food:
+  item_example:
+    Item:
+      Material: APPLE
+    Saturation: 3.0
+    Sound: ENTITY_GENERIC_EAT
+    Particle:
+      Name: HEART
+      Data: ''

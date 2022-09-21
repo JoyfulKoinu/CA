@@ -1,0 +1,130 @@
+Title: '&lPet Equipment'
+Size: 54
+
+Equipment_Slots:
+  HEAD: 13
+  CHEST: 22
+  LEGS: 31
+  FEET: 40
+  HAND: 19
+  OFF_HAND: 25
+
+Content:
+  exit:
+    Display:
+      default:
+        Item:
+          Material: 'BARRIER'
+          Name: '&c&lReturn'
+    Slots: 49
+    Type: RETURN
+
+  arrows_main_hand_up:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lMain Hand'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNkYjhmNDM2NTZjMDZjNGU4NjgzZTJlNjM0MWI0NDc5ZjE1N2Y0ODA4MmZlYTRhZmYwOWIzN2NhM2M2OTk1YiJ9fX0='
+    Slots: 28
+  arrows_main_hand_down:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lMain Hand'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0='
+    Slots: 10
+
+  arrows_off_hand_up:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lOff Hand'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNkYjhmNDM2NTZjMDZjNGU4NjgzZTJlNjM0MWI0NDc5ZjE1N2Y0ODA4MmZlYTRhZmYwOWIzN2NhM2M2OTk1YiJ9fX0='
+    Slots: 34
+  arrows_off_hand_down:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lOff Hand'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFlMWU3MzBjNzcyNzljOGUyZTE1ZDhiMjcxYTExN2U1ZTJjYTkzZDI1YzhiZTNhMDBjYzkyYTAwY2MwYmI4NSJ9fX0='
+    Slots: 16
+
+  arrows_head_left:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lHead'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0='
+    Slots: 14
+  arrows_head_right:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lHead'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0='
+    Slots: 12
+
+  arrows_chest_left:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lChest'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0='
+    Slots: 23
+  arrows_chest_right:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lChest'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0='
+    Slots: 21
+
+  arrows_legs_left:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lLegs'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0='
+    Slots: 32
+  arrows_legs_right:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lLegs'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0='
+    Slots: 30
+
+  arrows_feet_left:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lFeet'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0='
+    Slots: 41
+  arrows_feet_right:
+    Display:
+      default:
+        Item:
+          Material: 'PLAYER_HEAD'
+          Name: '&a&lFeet'
+          Head_Texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0='
+    Slots: 39
+
+  filler:
+    Display:
+      default:
+        Item:
+          Material: 'BLACK_STAINED_GLASS_PANE'
+          Name: ''
+    Slots: 0,1,2,3,4,5,6,7,8,9,11,15,17,18,20,24,26,27,29,33,35,36,37,38,42,43,44,45,46,47,48,50,51,52,53

@@ -1,0 +1,151 @@
+Command:
+  AddExp:
+    Usage: <player> <amount> / <player> <pet> <amount>
+    Desc: Adds exp to the player's pet.
+    Done: Added &a%amount% exp &7to &a%player%&7's &a%pet_data_name%&7 pet.
+  AddPoints:
+    Usage: <player> <amount> / <player> <pet> <amount>
+    Desc: Adds aspect points to the player's pet.
+    Done: Added &a%amount% aspect points &7to &a%player%&7's &a%pet_data_name%&7 pet.
+  Collection:
+    Desc: List of all your pets.
+  ForceAdd:
+    Usage: <player> <pet>
+    Desc: Force adds pet to the player's pet collection.
+    Done: Given a &d%pet% pet &fto &d%player%
+  ForceTake:
+    Usage: <player> <pet>
+    Desc: Takes a pet from the player pet collection.
+    Done: Taken a &d%pet% pet &ffrom &d%player%
+  CatchItem:
+    Usage: <player> <template>
+    Desc: Gives pet catch item.
+    Done: Given catch item to &a%player%&7.
+  Food:
+    Usage: <pet> <amount> [player]
+    Desc: Gives an pet food item.
+    Error:
+      Invalid: '&cNo food item with such id!'
+    Done: Given &fx%amount% &7food item to &a%player%&7.
+  Egg:
+    Usage: <player> <pet>
+    Desc: Gives an pet egg to the player.
+    Done: Given an &a%pet_config_name%&7 pet egg to &a%player%&7.
+  Rename:
+    Usage: <name>
+    Desc: Rename your current pet.
+  ResetProgress:
+    Usage: <player> [pet]
+    Desc: Resets all pet stats/exp/level.
+    Done: Reset stats for &c%player%'s %pet% &7pet.
+  Menu:
+    Desc: Open menu of active pet.
+  EggShop:
+    Desc: Open pet egg shop.
+  Customizations:
+    Desc: Open pet customization shop.
+Pet:
+  Claim:
+    Have: You already have this pet!
+    Success: 'You claimed a pet &d%pet%&f! You can found it in your pet collection:
+      &d/pets'
+    Limit: You can not claim this pet because you have reached your pet limit of &c%limit%
+      pets&7!
+  Catch:
+    Success: '&aYay! &fYou catched a &a%pet% &fpet!'
+    Escaped: '&cDamn. &fMob escaped from you.'
+    Limit: You can not catch this pet because you have reached your pet limit of &c%limit%
+      pets&7!
+  Level:
+    Up: '&aYour pet just leveled up to &2&l%lvl% &alevel!'
+    Points: '&aYour pet gain %amount% stat points!'
+  Rename:
+    Info:
+    - '{message: ~prefix: false;}'
+    - '&6&m                 &6&l[ &e&lPet Renaming &6&l]&6&m                 &6'
+    - '&7    To rename a pet, use the command: &e/pet rename <name>'
+    - '&7    Where &e<name>&7 is a new name for your pet.'
+    - '&7'
+    - '&7        {json: ~showText: &7Click to rename your pet.; ~suggestCommand: /pet
+      rename ;}&a&l[Rename Pet]{end-json}'
+    - '&7'
+    - '&6&m                                        &7'
+    Error:
+      TooLong: Name can not be longer than &c%max% &7chars!
+      TooShort: Name must be longer than &c%min% &7chars!
+      BadWord: Name contains forbidden words!
+    Success:
+    - '{message: ~type: TITLES; ~fadeIn: 20; ~stay: 50; ~fadeOut: 30;}'
+    - '&a&lPet Renamed!'
+    - '&7You renamed your pet to &f%pet_data_name%&7.'
+  Revive:
+    Error:
+      IsAlive: '&cYour pet is already alive!'
+      NotEnoughFunds:
+      - '{message: ~type: TITLES; ~fadeIn: 20; ~stay: 50; ~fadeOut: 30; ~sound: BLOCK_ANVIL_PLACE;}'
+      - '&c&lNot Enough Funds!'
+      - '&7You need &c$%pet_template_death_revive_cost%&7 to revive your pet.'
+    Success:
+    - '{message: ~type: TITLES; ~fadeIn: 20; ~stay: 50; ~fadeOut: 30; ~sound: ITEM_TOTEM_USE;}'
+    - '&a&lPet Revived!'
+    - '&7You paid &a$%pet_template_death_revive_cost%&7 to revive your pet.'
+  Release:
+    Error:
+      Active: '&cYou must despawn the pet first!'
+  Ride:
+    Error:
+      Disabled: '&cYour pet is not rideable!'
+  User:
+    Error:
+      NoPet: '&c%player% &7doesn''t have such pet!'
+      NoActivePet: Player &c%player% &7does not have an active pet!
+  Error:
+    Invalid: Pet with this ID does not exist!
+    NoInventory: Your pet does not have an inventory!
+    NoEquipment: Your pet can not be equipped!
+    NoPet: You don't have pet %pet%
+    NoActivePet: '&cYou don''t have active pet.'
+    NotYour: You are not the owner of this pet!
+    BadEquip: You can not equip this item in this slot!
+    Spawn:
+      Dead: Your pet is dead. You need to revive it.
+      Already: You already have an active pet!
+  Despawn:
+    Reason:
+      BadWorld: '&cSorry! &7Pets are unavailable in this world.'
+      BadRegion: '&cSorry! &7Pets are unavailable in this region.'
+      Death: '&cYour pet died! &7You can revive him in your pet collection.'
+      Default: Pet despawned!
+  Status:
+    ALIVE:
+      Name: '&aAlive'
+      Action: '&a&nClick to spawn!'
+    DEAD:
+      Name: '&cDead'
+    Dead:
+      Action: '&c&nClick to revive for %cost%$!'
+    ACTIVE:
+      Name: '&eActive'
+      Action: '&e&nClick to despawn!'
+User:
+  Error:
+    NoPet: Player &c%player% &fdoes not have a &c%pet%&f pet!
+    AlreadyHavePet: Player &c%player% &falready have a &c%pet%&f pet!
+Shop:
+  Buy:
+    NoMoney: '&cYou don''t have enough money to buy this egg!'
+    Success: '&7You purchased a &a%pet_config_name% &7pet egg for &a$%egg_price%&7!'
+Customizer:
+  Interact:
+    Pet:
+      Error:
+        NotYour: '&cYou cant'' customize other player pets!'
+        WrongType: '&cThis customization does not applies to this pet!'
+        AlreadyHas: '&cThis customization is already applied to this pet!'
+  Shop:
+    Purchase:
+      Error:
+        NotEnoughMoney: '{message: ~sound: BLOCK_ANVIL_DESTROY;}&cYou don''t have
+          enough money to purchase it!'
+      Success: '{message: ~sound: ENTITY_PLAYER_LEVELUP;}You purchased &a%customization_name%
+        %customization_type%&7 for &a$%customization_price%&7!'
