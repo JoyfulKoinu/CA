@@ -50,7 +50,7 @@ MobsFromSpawnerNoReward: true
 ShieldPreventsEffects: true
 #Mob spawn rate during a BloodMoon.
 #0 means no mob at all, 25 is average, and anything above 100 is honestly insane
-BloodMoonSpawnMobRate: 72
+BloodMoonSpawnMobRate: 70
 #Decides if a zombie boss will spawn each BloodMoon
 EnableZombieBoss: true
 #When in a permanent BloodMoon, how long (in ticks) before respawning zombie boss after death?
@@ -72,11 +72,17 @@ DropItemList:
   - "IRON_BLOCK:1:2"
   - "GOLD_INGOT:3:6"
   - "GOLD_BLOCK:1:2"
+  - "EMERALD:3:6"
+  - "EMERALD_BLOCK:1:2"
   - "DIAMOND:3:6"
   - "DIAMOND_BLOCK:1:2"
-  - "ANCIENT_DEBRIS:1:1"
   - "BLAZE_ROD:3:5"
   - "GHAST_TEAR:1:4"
+  - "STRING:1:4"
+  - "GUNPOWDER:1:6"
+  - "FEATHER:1:3"
+  - "GOLDEN_APPLE:1:1"
+  - "CAKE:1:1"
 #Here is an example of a special item drop with fire aspect I and sharpness III:
 # - "DIAMOND_SWORD:1:1:$name Excalibur:$desc The legendary Excalibur$nSword of King Arthur:$enchant FIRE_ASPECT,1;sharpness,3"
 #These are AOE powers affecting all players around the boss
