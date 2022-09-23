@@ -29,7 +29,7 @@ anticheat:
     - ender_chest
     - ancient_debris
     lava-obscures: true
-    max-block-height: 64
+    max-block-height: 756
     replacement-blocks:
     - stone
     - deepslate
