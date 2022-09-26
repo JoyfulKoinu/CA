@@ -1,12 +1,12 @@
 chests:
   # You can copy/paste these templates to create new chests
-  Begineer:
+  Beginner:
     inventory:
-      name: '&aBegineer Chest &aPage - %i%'
+      name: '&aBeginner Chest &aPage - %i%'
       # The size must be multiple of 9
       size: 54
     item:
-      name: '&aBegineer Chest'
+      name: '&aBeginner Chest'
       lore:
       - '&7This chest contains a total'
       - '&7of &6x%size% &7slots'
@@ -23,7 +23,7 @@ chests:
     next-page-slot: 6
     upgrades:
       enable: true
-      next_upgrade: AdvancedBegineer
+      next_upgrade: AdvancedBeginner
       price: 50000
       slot: 5
     sorters:
@@ -72,13 +72,13 @@ chests:
       - ABA
       - AAA
     chest-type: NORMAL
-  AdvancedBegineer:
+  AdvancedBeginner:
     inventory:
-      name: '&2Advanced Begineers Chest &2Page - %i%'
+      name: '&2Advanced Beginners Chest &2Page - %i%'
       # The size must be multiple of 9
       size: 108
     item:
-      name: '&2Advanced Begineers Chest'
+      name: '&2Advanced Beginners Chest'
       lore:
       - '&7This chest contains a total'
       - '&7of &6x%size% &7slots'
